@@ -1,0 +1,833 @@
+{
+  "title": "Self Assessment Questionnaire",
+  "themes": [
+    "Authorisation & Compliance",
+    "Planning & Documentation",
+    "Fund Management & Controls",
+    "Reporting & Transparency",
+    "Governance & Oversight"
+  ],
+  "questions": [
+    {
+      "theme": "Authorisation & Compliance",
+      "number": 1,
+      "question": "Does the organisation obtain necessary approvals/permits (e.g., Police permits, LHDN approvals) before commencing fundraising activities?",
+      "options": [
+        {
+          "text": "Yes, always obtained well in advance; process clear & documented. (3)",
+          "score": 3
+        },
+        {
+          "text": "Yes, usually obtained before commencement; minor delays but compliant. (2)",
+          "score": 2
+        },
+        {
+          "text": "Sometimes obtained late or process unclear/inconsistent. (1)",
+          "score": 1
+        },
+        {
+          "text": "No, often not sought or obtained post-activity / Unaware of requirements. (0)",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "theme": "Authorisation & Compliance",
+      "number": 2,
+      "question": "Does the organisation ensure it meets eligibility requirements before applying for permits, licenses, or specific statuses (e.g., S.45(6))?",
+      "options": [
+        {
+          "text": "Yes, eligibility always confirmed systematically before application. (2)",
+          "score": 2
+        },
+        {
+          "text": "Usually confirmed, occasional oversight or assumptions made. (1)",
+          "score": 1
+        },
+        {
+          "text": "Rarely confirmed systematically / Eligibility issues often found post-application. (0)",
+          "score": 0
+        },
+        {
+          "text": "Not Applicable (No such applications made). (0)",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "theme": "Authorisation & Compliance",
+      "number": 3,
+      "question": "Are applications for permits, grants, or specific statuses submitted with clear, accurate, and complete information?",
+      "options": [
+        {
+          "text": "Yes, consistently high quality, clear, accurate, and complete. (3)",
+          "score": 3
+        },
+        {
+          "text": "Generally adequate, most key information included, minor clarifications needed. (2)",
+          "score": 2
+        },
+        {
+          "text": "Often lack clarity or completeness, requiring significant follow-up. (1)",
+          "score": 1
+        },
+        {
+          "text": "Poor quality, key information missing / Not Applicable. (0)",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "theme": "Authorisation & Compliance",
+      "number": 4,
+      "question": "Does the organisation consistently use correct application procedures/forms (e.g., LHDN, Police) & pay correct fees?",
+      "options": [
+        {
+          "text": "Yes, procedures always followed correctly, correct forms/fees used. (2)",
+          "score": 2
+        },
+        {
+          "text": "Mostly correct, occasional minor errors in procedure, form, or fee. (1)",
+          "score": 1
+        },
+        {
+          "text": "Frequent errors in procedure, form, or fee / Unaware of correct process. (0)",
+          "score": 0
+        },
+        {
+          "text": "Not Applicable (No such submissions made). (0)",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "theme": "Authorisation & Compliance",
+      "number": 5,
+      "question": "If holding tax-exempt status (e.g., S.44(6) ITA 1967), does the organisation understand & comply with all LHDN conditions?",
+      "options": [
+        {
+          "text": "Yes, conditions fully understood, documented, and consistently complied with. (2)",
+          "score": 2
+        },
+        {
+          "text": "Generally understood and complied with, some conditions less clear/monitored. (1)",
+          "score": 1
+        },
+        {
+          "text": "Lack of clarity on conditions / Compliance gaps exist / Not monitored. (0)",
+          "score": 0
+        },
+        {
+          "text": "Not Applicable (Not tax-exempt). (0)",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "theme": "Planning & Documentation",
+      "number": 6,
+      "question": "Are up-to-date copies of essential documents (Constitution/Rules, Reg docs, licenses) readily available?",
+      "options": [
+        {
+          "text": "Yes, all key documents are current and readily accessible. (2)",
+          "score": 2
+        },
+        {
+          "text": "Most are available, some may need locating or updating. (1)",
+          "score": 1
+        },
+        {
+          "text": "Significant documents are outdated or difficult to locate. (0)",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "theme": "Planning & Documentation",
+      "number": 7,
+      "question": "Is there a documented plan for significant fundraising activities (objectives, methods, audience, procedures)?",
+      "options": [
+        {
+          "text": "Yes, comprehensive, documented plan exists and is followed/updated. (3)",
+          "score": 3
+        },
+        {
+          "text": "Basic plan exists, covers key areas but lacks detail or regular review. (2)",
+          "score": 2
+        },
+        {
+          "text": "Informal planning only / Plans lack key elements. (1)",
+          "score": 1
+        },
+        {
+          "text": "No documented plan for fundraising activities. (0)",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "theme": "Planning & Documentation",
+      "number": 8,
+      "question": "Is there a clearly documented process for handling donations (receipt, recording, banking, acknowledgement, controls)?",
+      "options": [
+        {
+          "text": "Yes, robust, clear, documented process consistently followed. (3)",
+          "score": 3
+        },
+        {
+          "text": "Documented process exists, covers key steps but could be clearer/more detailed. (2)",
+          "score": 2
+        },
+        {
+          "text": "Basic or informal process, lacks detail or consistency. (1)",
+          "score": 1
+        },
+        {
+          "text": "No documented process / Process not followed. (0)",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "theme": "Planning & Documentation",
+      "number": 9,
+      "question": "Does the organisation maintain detailed internal procedures (SOPs) for key fundraising and fund management tasks, reviewed/updated regularly?",
+      "options": [
+        {
+          "text": "Yes, detailed SOPs exist, are regularly updated and actively used. (2)",
+          "score": 2
+        },
+        {
+          "text": "Basic SOPs exist but lack detail or regular updates / Use is inconsistent. (1)",
+          "score": 1
+        },
+        {
+          "text": "No detailed SOPs documented for these tasks. (0)",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "theme": "Planning & Documentation",
+      "number": 10,
+      "question": "Is there a process to review fundraising appeals/materials for accuracy and compliance before use?",
+      "options": [
+        {
+          "text": "Yes, formal review process consistently applied before publication. (2)",
+          "score": 2
+        },
+        {
+          "text": "Informal review usually happens / Process applied inconsistently. (1)",
+          "score": 1
+        },
+        {
+          "text": "No specific review process before use / Materials used without review. (0)",
+          "score": 0
+        },
+        {
+          "text": "Not Applicable (No external fundraising materials used). (0)",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "theme": "Planning & Documentation",
+      "number": 11,
+      "question": "Are necessary internal authorisations (e.g., Board/Committee resolutions) documented for initiating campaigns or applications?",
+      "options": [
+        {
+          "text": "Yes, required authorisations always documented appropriately. (2)",
+          "score": 2
+        },
+        {
+          "text": "Usually documented, occasional lapses in formality or record-keeping. (1)",
+          "score": 1
+        },
+        {
+          "text": "Authorisations often informal or undocumented. (0)",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "theme": "Planning & Documentation",
+      "number": 12,
+      "question": "Are annual financial audits completed promptly for timely reporting & submission to SSM/ROS/LHDN?",
+      "options": [
+        {
+          "text": "Yes, always completed on time to meet deadlines. (2)",
+          "score": 2
+        },
+        {
+          "text": "Usually on time, occasional minor delays but deadlines generally met. (1)",
+          "score": 1
+        },
+        {
+          "text": "Often significantly delayed, impacting reporting/submissions. (0)",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "theme": "Planning & Documentation",
+      "number": 13,
+      "question": "Does the organisation have a documented overall fundraising strategy (goals, donors, channels, KPIs)?",
+      "options": [
+        {
+          "text": "Yes, comprehensive, documented strategy exists and is reviewed regularly. (2)",
+          "score": 2
+        },
+        {
+          "text": "An informal strategy exists or is documented but not regularly reviewed. (1)",
+          "score": 1
+        },
+        {
+          "text": "No documented fundraising strategy. (0)",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "theme": "Fund Management & Controls",
+      "number": 14,
+      "question": "Does the organisation maintain accurate, complete, and well-organized records for all donations received?",
+      "options": [
+        {
+          "text": "Excellent: Detailed, accurate, complete, well-organized records. (3)",
+          "score": 3
+        },
+        {
+          "text": "Good: Generally complete & accurate, minor gaps or organization issues. (2)",
+          "score": 2
+        },
+        {
+          "text": "Fair: Often incomplete or contain inaccuracies, poorly organized. (1)",
+          "score": 1
+        },
+        {
+          "text": "Poor: Significant information missing / Records unreliable. (0)",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "theme": "Fund Management & Controls",
+      "number": 15,
+      "question": "How effectively does the organisation track and ensure funds raised are used strictly per solicited purpose or donor/LHDN restrictions?",
+      "options": [
+        {
+          "text": "Highly Effective: Strict tracking, controls ensure compliance. (3)",
+          "score": 3
+        },
+        {
+          "text": "Mostly Effective: Good controls, minor deviations tracked/corrected. (2)",
+          "score": 2
+        },
+        {
+          "text": "Partially Effective: Controls could be stronger, some ambiguity in tracking. (1)",
+          "score": 1
+        },
+        {
+          "text": "Ineffective: Poor control over fund usage / Significant compliance risks. (0)",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "theme": "Fund Management & Controls",
+      "number": 16,
+      "question": "Does the accounting system allow for clear segregation and reporting of funds related to specific campaigns or restricted purposes?",
+      "options": [
+        {
+          "text": "Yes, robust tracking/coding allows easy segregation & reporting. (2)",
+          "score": 2
+        },
+        {
+          "text": "Partially, basic tracking exists but distinction isn't always clear/easy. (1)",
+          "score": 1
+        },
+        {
+          "text": "No, funds generally co-mingled without specific tracking/reporting capability. (0)",
+          "score": 0
+        },
+        {
+          "text": "Not Applicable (Only receives unrestricted general funds). (0)",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "theme": "Fund Management & Controls",
+      "number": 17,
+      "question": "Does the organisation have a defined risk-based donor due diligence (DDD) process, including triggers & awareness of AMLA requirements?",
+      "options": [
+        {
+          "text": "Yes, clear documented process with risk levels & triggers, consistently applied. (3)",
+          "score": 3
+        },
+        {
+          "text": "Basic process exists, applied inconsistently or lacks clear triggers/risk levels. (2)",
+          "score": 2
+        },
+        {
+          "text": "Process informal or poorly defined / Enhanced checks rarely done. (1)",
+          "score": 1
+        },
+        {
+          "text": "No defined donor screening/due diligence process. (0)",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "theme": "Fund Management & Controls",
+      "number": 18,
+      "question": "How clearly does the organisation communicate fund restrictions (e.g., specific project vs general) to donors?",
+      "options": [
+        {
+          "text": "Very Clearly: Explicit, prominent communication in materials/receipts. (2)",
+          "score": 2
+        },
+        {
+          "text": "Adequately: Mentioned, but could be clearer or more consistently applied. (1)",
+          "score": 1
+        },
+        {
+          "text": "Not Clearly Communicated / Ambiguous messaging. (0)",
+          "score": 0
+        },
+        {
+          "text": "Not Applicable (Only receives unrestricted general funds). (0)",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "theme": "Fund Management & Controls",
+      "number": 19,
+      "question": "Are restricted funds managed and accounted for separately (physically or via accounting controls) to ensure compliance?",
+      "options": [
+        {
+          "text": "Yes, robust segregation (separate accounts or strict accounting controls). (2)",
+          "score": 2
+        },
+        {
+          "text": "Basic segregation/tracking exists, but risk of co-mingling or misuse. (1)",
+          "score": 1
+        },
+        {
+          "text": "No effective segregation, funds co-mingled / High risk of misuse. (0)",
+          "score": 0
+        },
+        {
+          "text": "Not Applicable (Only receives unrestricted general funds). (0)",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "theme": "Fund Management & Controls",
+      "number": 20,
+      "question": "Does the organisation offer multiple, convenient, and secure channels for donors to make contributions?",
+      "options": [
+        {
+          "text": "Yes, multiple convenient & secure channels actively offered & maintained. (2)",
+          "score": 2
+        },
+        {
+          "text": "Limited channels offered (e.g., only 1-2 options) / Some usability issues. (1)",
+          "score": 1
+        },
+        {
+          "text": "Only one channel offered / Channels are inconvenient or lack security. (0)",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "theme": "Reporting & Transparency",
+      "number": 21,
+      "question": "Is the organisation prepared to provide detailed financial reports on campaigns/fund usage if required (e.g., by LHDN, Police, donors)?",
+      "options": [
+        {
+          "text": "Fully Prepared: Systems allow easy, accurate generation on demand. (2)",
+          "score": 2
+        },
+        {
+          "text": "Moderately Prepared: Could compile with significant effort / System limitations. (1)",
+          "score": 1
+        },
+        {
+          "text": "Unprepared: Unable to provide detailed reports / Systems inadequate. (0)",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "theme": "Reporting & Transparency",
+      "number": 22,
+      "question": "Does the organisation provide appropriate reports/updates to donors on fund usage and impact?",
+      "options": [
+        {
+          "text": "Yes, specific, regular reports/updates provided proactively. (2)",
+          "score": 2
+        },
+        {
+          "text": "Reports provided occasionally, upon request, or lack specific detail. (1)",
+          "score": 1
+        },
+        {
+          "text": "No specific reporting back to donors beyond generic annual reports. (0)",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "theme": "Reporting & Transparency",
+      "number": 23,
+      "question": "Does the organisation actively communicate the impact and outcomes achieved with donated funds (beyond just financials)?",
+      "options": [
+        {
+          "text": "Yes, impact/stories regularly communicated through various channels. (2)",
+          "score": 2
+        },
+        {
+          "text": "Impact/stories shared occasionally or lack depth. (1)",
+          "score": 1
+        },
+        {
+          "text": "Primarily reports only financial usage / Impact communication minimal. (0)",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "theme": "Reporting & Transparency",
+      "number": 24,
+      "question": "Does the organisation utilize tools (like checklists/self-assessments) internally to monitor adherence to policies?",
+      "options": [
+        {
+          "text": "Yes, formal tools used regularly by relevant departments/staff. (2)",
+          "score": 2
+        },
+        {
+          "text": "Informal checks performed occasionally / Tools exist but not used consistently. (1)",
+          "score": 1
+        },
+        {
+          "text": "No internal self-assessment tools or regular checks used. (0)",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "theme": "Reporting & Transparency",
+      "number": 25,
+      "question": "Is there a mechanism (e.g., management, audit, compliance) to verify accuracy of internal compliance checks/self-assessments?",
+      "options": [
+        {
+          "text": "Yes, formal verification process exists and is implemented. (2)",
+          "score": 2
+        },
+        {
+          "text": "Informal checks or reliance solely on declaration without verification. (1)",
+          "score": 1
+        },
+        {
+          "text": "No verification of self-assessments performed. (0)",
+          "score": 0
+        },
+        {
+          "text": "Not Applicable (No self-assessments done). (0)",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "theme": "Reporting & Transparency",
+      "number": 26,
+      "question": "Is there a formal channel for staff/volunteers to report potential compliance breaches or incidents?",
+      "options": [
+        {
+          "text": "Yes, formal, confidential channel exists, is known and utilized. (2)",
+          "score": 2
+        },
+        {
+          "text": "Informal channels exist (e.g., report to manager) / Formal channel unclear. (1)",
+          "score": 1
+        },
+        {
+          "text": "No formal or clear channel for incident reporting. (0)",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "theme": "Governance & Oversight",
+      "number": 27,
+      "question": "How actively does the Board/Committee oversee fundraising activities, risks, and compliance?",
+      "options": [
+        {
+          "text": "Proactive & Regular Oversight: Dedicated agenda items, reviews reports/risks. (3)",
+          "score": 3
+        },
+        {
+          "text": "Periodic Review: Addressed annually or when significant issues arise. (2)",
+          "score": 2
+        },
+        {
+          "text": "Minimal / Infrequent Oversight: Rarely discussed at Board/Committee level. (1)",
+          "score": 1
+        },
+        {
+          "text": "No specific Board/Committee oversight of fundraising compliance/risks. (0)",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "theme": "Governance & Oversight",
+      "number": 28,
+      "question": "Has the organisation reviewed its governing document (Constitution/Rules) regarding fundraising powers and ensured alignment?",
+      "options": [
+        {
+          "text": "Yes, reviewed recently (e.g., within 2-3 years) and confirmed alignment. (2)",
+          "score": 2
+        },
+        {
+          "text": "Reviewed in the past (>3 years ago), assume alignment / Informal review only. (1)",
+          "score": 1
+        },
+        {
+          "text": "No recent review or confirmation of alignment. (0)",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "theme": "Governance & Oversight",
+      "number": 29,
+      "question": "Does the organisation utilize committees (e.g., Audit, Finance) with independent members/directors for oversight where appropriate?",
+      "options": [
+        {
+          "text": "Yes, relevant committees exist with appropriate independent members. (2)",
+          "score": 2
+        },
+        {
+          "text": "Committees exist but lack independent members / Independence questionable. (1)",
+          "score": 1
+        },
+        {
+          "text": "No specific oversight committees utilized for these functions. (0)",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "theme": "Governance & Oversight",
+      "number": 30,
+      "question": "Do the Board/Committee collectively possess diverse, relevant expertise (finance, legal, non-profit, industry)?",
+      "options": [
+        {
+          "text": "Yes, strong diverse expertise represented and actively engaged. (2)",
+          "score": 2
+        },
+        {
+          "text": "Some relevant expertise exists, but lacks diversity or depth / Engagement low. (1)",
+          "score": 1
+        },
+        {
+          "text": "Oversight body lacks diverse or relevant expertise for key areas. (0)",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "theme": "Governance & Oversight",
+      "number": 31,
+      "question": "Does the organisation conduct formal, periodic internal compliance reviews (independent of the audited functions)?",
+      "options": [
+        {
+          "text": "Yes, formal reviews conducted regularly (e.g., annually) covering key risks. (2)",
+          "score": 2
+        },
+        {
+          "text": "Informal or ad-hoc reviews conducted / Scope or independence limited. (1)",
+          "score": 1
+        },
+        {
+          "text": "No regular internal compliance reviews conducted. (0)",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "theme": "Governance & Oversight",
+      "number": 32,
+      "question": "Does the organisation have clearly defined roles/responsibilities for risk management & compliance (e.g., 'Lines of Defense')?",
+      "options": [
+        {
+          "text": "Yes, clearly defined, documented, and understood roles & structure. (2)",
+          "score": 2
+        },
+        {
+          "text": "Roles exist but are informal or not clearly defined/documented / Overlap exists. (1)",
+          "score": 1
+        },
+        {
+          "text": "No defined structure or roles for risk management/compliance. (0)",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "theme": "Governance & Oversight",
+      "number": 33,
+      "question": "Do staff/volunteers involved in fundraising/fund mgt receive regular training on policies, procedures & compliance (incl. AMLA awareness)?",
+      "options": [
+        {
+          "text": "Yes, mandatory regular training/refreshers with effectiveness checks. (2)",
+          "score": 2
+        },
+        {
+          "text": "Training provided initially or ad-hoc / Lacks regularity or effectiveness checks. (1)",
+          "score": 1
+        },
+        {
+          "text": "No specific compliance training provided for relevant personnel. (0)",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "theme": "Governance & Oversight",
+      "number": 34,
+      "question": "Do operational teams use tools like checklists regularly to ensure adherence to key fundraising/donation process steps?",
+      "options": [
+        {
+          "text": "Yes, specific checklists are integrated into processes & used consistently. (2)",
+          "score": 2
+        },
+        {
+          "text": "Checklists exist but are not used consistently or lack key controls. (1)",
+          "score": 1
+        },
+        {
+          "text": "No operational checklists used for these processes. (0)",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "theme": "Governance & Oversight",
+      "number": 35,
+      "question": "Are internal platforms/processes used effectively to share knowledge/updates on governance, risk, and compliance matters?",
+      "options": [
+        {
+          "text": "Yes, actively used platforms for regular & effective knowledge sharing. (2)",
+          "score": 2
+        },
+        {
+          "text": "Platforms exist but used infrequently / Info outdated or hard to find. (1)",
+          "score": 1
+        },
+        {
+          "text": "No specific platforms/processes used for sharing this knowledge. (0)",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "theme": "Governance & Oversight",
+      "number": 36,
+      "question": "If Internal Audit (IA) function exists: Is the IA plan risk-based, focusing on high-risk fundraising/fund mgt areas?",
+      "options": [
+        {
+          "text": "Yes, explicitly risk-based with documented assessment, covers key areas. (2)",
+          "score": 2
+        },
+        {
+          "text": "Considers risk informally / Lacks documented assessment / Coverage limited. (1)",
+          "score": 1
+        },
+        {
+          "text": "IA plan not risk-based / Key areas not covered. (0)",
+          "score": 0
+        },
+        {
+          "text": "Not Applicable (No IA function). (0)",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "theme": "Governance & Oversight",
+      "number": 37,
+      "question": "If IA function exists: Is there formal follow-up on IA findings related to fundraising/fund mgt?",
+      "options": [
+        {
+          "text": "Yes, formal, tracked follow-up process with management accountability. (2)",
+          "score": 2
+        },
+        {
+          "text": "Follow-up is informal or ad-hoc / Tracking is weak. (1)",
+          "score": 1
+        },
+        {
+          "text": "No formal follow-up process / Findings often unresolved. (0)",
+          "score": 0
+        },
+        {
+          "text": "Not Applicable (No IA function / No relevant findings). (0)",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "theme": "Governance & Oversight",
+      "number": 38,
+      "question": "If IA function exists: Are recurring IA findings related to fundraising/fund mgt escalated or given higher ratings?",
+      "options": [
+        {
+          "text": "Yes, repeat findings specifically tracked & rating/attention escalated. (2)",
+          "score": 2
+        },
+        {
+          "text": "Repeat findings noted, but no formal escalation process exists. (1)",
+          "score": 1
+        },
+        {
+          "text": "Repeat findings not specifically tracked or escalated. (0)",
+          "score": 0
+        },
+        {
+          "text": "Not Applicable (No IA function / No relevant repeat findings). (0)",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "theme": "Governance & Oversight",
+      "number": 39,
+      "question": "If IA function exists: Has IA undergone an external quality review (EQAR) within the last 5 years?",
+      "options": [
+        {
+          "text": "Yes, satisfactory EQAR completed within the last 5 years. (2)",
+          "score": 2
+        },
+        {
+          "text": "EQAR completed >5 years ago / Planned but not yet done / Outcome unsatisfactory. (1)",
+          "score": 1
+        },
+        {
+          "text": "No EQAR conducted / Not considered. (0)",
+          "score": 0
+        },
+        {
+          "text": "Not Applicable (No IA function). (0)",
+          "score": 0
+        }
+      ]
+    }
+  ]
+}
