@@ -28,12 +28,10 @@ const App = () => {
         console.log("Attempting to load questionnaire data...");
         
         // When running locally, the JSON file should be in the 'public' folder of your React app
-        const fileContent = await window.fs.readFile('questionnaire-data.json');
-        const jsonContent = new TextDecoder().decode(fileContent);
-        const jsonData = JSON.parse(jsonContent);
-        
+        const response = await fetch('/questionnaire-data.json');
+        const questionnaireData = await response.json();
         console.log("Data loaded successfully");
-        setQuestionnaire(jsonData);
+        setQuestionnaire(questionnaireData);
         setLoading(false);
       } catch (error) {
         console.error("Error loading data:", error);
@@ -127,9 +125,10 @@ const App = () => {
       
       const loadData = async () => {
         try {
-          const fileContent = await window.fs.readFile('questionnaire-data.json');
-          const jsonData = JSON.parse(new TextDecoder().decode(fileContent));
-          setQuestionnaire(jsonData);
+          const response = await fetch('/questionnaire-data.json');
+          const questionnaireData = await response.json();
+          
+          setQuestionnaire(questionnaireData);
           setLoading(false);
           setPage('instructions');
         } catch (error) {
