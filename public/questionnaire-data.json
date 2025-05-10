@@ -15,19 +15,23 @@
       "options": [
         {
           "text": "Yes, always obtained well in advance; process clear & documented. (3)",
-          "score": 3
+          "score": 3,
+          "classification": "Best Practice"
         },
         {
           "text": "Yes, usually obtained before commencement; minor delays but compliant. (2)",
-          "score": 2
+          "score": 2,
+          "classification": "Compliant"
         },
         {
           "text": "Sometimes obtained late or process unclear/inconsistent. (1)",
-          "score": 1
+          "score": 1,
+          "classification": "At Risk"
         },
         {
           "text": "No, often not sought or obtained post-activity / Unaware of requirements. (0)",
-          "score": 0
+          "score": 0,
+          "classification": "Non-compliant"
         }
       ]
     },
@@ -38,19 +42,23 @@
       "options": [
         {
           "text": "Yes, eligibility always confirmed systematically before application. (2)",
-          "score": 2
+          "score": 2,
+          "classification": "Compliant"
         },
         {
           "text": "Usually confirmed, occasional oversight or assumptions made. (1)",
-          "score": 1
+          "score": 1,
+          "classification": "At Risk"
         },
         {
           "text": "Rarely confirmed systematically / Eligibility issues often found post-application. (0)",
-          "score": 0
+          "score": 0,
+          "classification": "Non-compliant"
         },
         {
           "text": "Not Applicable (No such applications made). (0)",
-          "score": 0
+          "score": 0,
+          "classification": "Non-compliant"
         }
       ]
     },
@@ -61,19 +69,23 @@
       "options": [
         {
           "text": "Yes, consistently high quality, clear, accurate, and complete. (3)",
-          "score": 3
+          "score": 3,
+          "classification": "Best Practice"
         },
         {
           "text": "Generally adequate, most key information included, minor clarifications needed. (2)",
-          "score": 2
+          "score": 2,
+          "classification": "Compliant"
         },
         {
           "text": "Often lack clarity or completeness, requiring significant follow-up. (1)",
-          "score": 1
+          "score": 1,
+          "classification": "At Risk"
         },
         {
           "text": "Poor quality, key information missing / Not Applicable. (0)",
-          "score": 0
+          "score": 0,
+          "classification": "Non-compliant"
         }
       ]
     },
@@ -84,19 +96,23 @@
       "options": [
         {
           "text": "Yes, procedures always followed correctly, correct forms/fees used. (2)",
-          "score": 2
+          "score": 2,
+          "classification": "Compliant"
         },
         {
           "text": "Mostly correct, occasional minor errors in procedure, form, or fee. (1)",
-          "score": 1
+          "score": 1,
+          "classification": "At Risk"
         },
         {
           "text": "Frequent errors in procedure, form, or fee / Unaware of correct process. (0)",
-          "score": 0
+          "score": 0,
+          "classification": "Non-compliant"
         },
         {
           "text": "Not Applicable (No such submissions made). (0)",
-          "score": 0
+          "score": 0,
+          "classification": "Non-compliant"
         }
       ]
     },
@@ -107,19 +123,23 @@
       "options": [
         {
           "text": "Yes, conditions fully understood, documented, and consistently complied with. (2)",
-          "score": 2
+          "score": 2,
+          "classification": "Compliant"
         },
         {
           "text": "Generally understood and complied with, some conditions less clear/monitored. (1)",
-          "score": 1
+          "score": 1,
+          "classification": "At Risk"
         },
         {
           "text": "Lack of clarity on conditions / Compliance gaps exist / Not monitored. (0)",
-          "score": 0
+          "score": 0,
+          "classification": "Non-compliant"
         },
         {
           "text": "Not Applicable (Not tax-exempt). (0)",
-          "score": 0
+          "score": 0,
+          "classification": "Non-compliant"
         }
       ]
     },
@@ -130,15 +150,18 @@
       "options": [
         {
           "text": "Yes, all key documents are current and readily accessible. (2)",
-          "score": 2
+          "score": 2,
+          "classification": "Compliant"
         },
         {
           "text": "Most are available, some may need locating or updating. (1)",
-          "score": 1
+          "score": 1,
+          "classification": "At Risk"
         },
         {
           "text": "Significant documents are outdated or difficult to locate. (0)",
-          "score": 0
+          "score": 0,
+          "classification": "Non-compliant"
         }
       ]
     },
@@ -149,19 +172,23 @@
       "options": [
         {
           "text": "Yes, comprehensive, documented plan exists and is followed/updated. (3)",
-          "score": 3
+          "score": 3,
+          "classification": "Best Practice"
         },
         {
           "text": "Basic plan exists, covers key areas but lacks detail or regular review. (2)",
-          "score": 2
+          "score": 2,
+          "classification": "Compliant"
         },
         {
           "text": "Informal planning only / Plans lack key elements. (1)",
-          "score": 1
+          "score": 1,
+          "classification": "At Risk"
         },
         {
           "text": "No documented plan for fundraising activities. (0)",
-          "score": 0
+          "score": 0,
+          "classification": "Non-compliant"
         }
       ]
     },
@@ -172,19 +199,23 @@
       "options": [
         {
           "text": "Yes, robust, clear, documented process consistently followed. (3)",
-          "score": 3
+          "score": 3,
+          "classification": "Best Practice"
         },
         {
           "text": "Documented process exists, covers key steps but could be clearer/more detailed. (2)",
-          "score": 2
+          "score": 2,
+          "classification": "Compliant"
         },
         {
           "text": "Basic or informal process, lacks detail or consistency. (1)",
-          "score": 1
+          "score": 1,
+          "classification": "At Risk"
         },
         {
           "text": "No documented process / Process not followed. (0)",
-          "score": 0
+          "score": 0,
+          "classification": "Non-compliant"
         }
       ]
     },
@@ -195,15 +226,18 @@
       "options": [
         {
           "text": "Yes, detailed SOPs exist, are regularly updated and actively used. (2)",
-          "score": 2
+          "score": 2,
+          "classification": "Compliant"
         },
         {
           "text": "Basic SOPs exist but lack detail or regular updates / Use is inconsistent. (1)",
-          "score": 1
+          "score": 1,
+          "classification": "At Risk"
         },
         {
           "text": "No detailed SOPs documented for these tasks. (0)",
-          "score": 0
+          "score": 0,
+          "classification": "Non-compliant"
         }
       ]
     },
@@ -214,19 +248,23 @@
       "options": [
         {
           "text": "Yes, formal review process consistently applied before publication. (2)",
-          "score": 2
+          "score": 2,
+          "classification": "Compliant"
         },
         {
           "text": "Informal review usually happens / Process applied inconsistently. (1)",
-          "score": 1
+          "score": 1,
+          "classification": "At Risk"
         },
         {
           "text": "No specific review process before use / Materials used without review. (0)",
-          "score": 0
+          "score": 0,
+          "classification": "Non-compliant"
         },
         {
           "text": "Not Applicable (No external fundraising materials used). (0)",
-          "score": 0
+          "score": 0,
+          "classification": "Non-compliant"
         }
       ]
     },
@@ -237,15 +275,18 @@
       "options": [
         {
           "text": "Yes, required authorisations always documented appropriately. (2)",
-          "score": 2
+          "score": 2,
+          "classification": "Compliant"
         },
         {
           "text": "Usually documented, occasional lapses in formality or record-keeping. (1)",
-          "score": 1
+          "score": 1,
+          "classification": "At Risk"
         },
         {
           "text": "Authorisations often informal or undocumented. (0)",
-          "score": 0
+          "score": 0,
+          "classification": "Non-compliant"
         }
       ]
     },
@@ -256,15 +297,18 @@
       "options": [
         {
           "text": "Yes, always completed on time to meet deadlines. (2)",
-          "score": 2
+          "score": 2,
+          "classification": "Compliant"
         },
         {
           "text": "Usually on time, occasional minor delays but deadlines generally met. (1)",
-          "score": 1
+          "score": 1,
+          "classification": "At Risk"
         },
         {
           "text": "Often significantly delayed, impacting reporting/submissions. (0)",
-          "score": 0
+          "score": 0,
+          "classification": "Non-compliant"
         }
       ]
     },
@@ -275,15 +319,18 @@
       "options": [
         {
           "text": "Yes, comprehensive, documented strategy exists and is reviewed regularly. (2)",
-          "score": 2
+          "score": 2,
+          "classification": "Compliant"
         },
         {
           "text": "An informal strategy exists or is documented but not regularly reviewed. (1)",
-          "score": 1
+          "score": 1,
+          "classification": "At Risk"
         },
         {
           "text": "No documented fundraising strategy. (0)",
-          "score": 0
+          "score": 0,
+          "classification": "Non-compliant"
         }
       ]
     },
@@ -294,19 +341,23 @@
       "options": [
         {
           "text": "Excellent: Detailed, accurate, complete, well-organized records. (3)",
-          "score": 3
+          "score": 3,
+          "classification": "Best Practice"
         },
         {
           "text": "Good: Generally complete & accurate, minor gaps or organization issues. (2)",
-          "score": 2
+          "score": 2,
+          "classification": "Compliant"
         },
         {
           "text": "Fair: Often incomplete or contain inaccuracies, poorly organized. (1)",
-          "score": 1
+          "score": 1,
+          "classification": "At Risk"
         },
         {
           "text": "Poor: Significant information missing / Records unreliable. (0)",
-          "score": 0
+          "score": 0,
+          "classification": "Non-compliant"
         }
       ]
     },
@@ -317,19 +368,23 @@
       "options": [
         {
           "text": "Highly Effective: Strict tracking, controls ensure compliance. (3)",
-          "score": 3
+          "score": 3,
+          "classification": "Best Practice"
         },
         {
           "text": "Mostly Effective: Good controls, minor deviations tracked/corrected. (2)",
-          "score": 2
+          "score": 2,
+          "classification": "Compliant"
         },
         {
           "text": "Partially Effective: Controls could be stronger, some ambiguity in tracking. (1)",
-          "score": 1
+          "score": 1,
+          "classification": "At Risk"
         },
         {
           "text": "Ineffective: Poor control over fund usage / Significant compliance risks. (0)",
-          "score": 0
+          "score": 0,
+          "classification": "Non-compliant"
         }
       ]
     },
@@ -340,19 +395,23 @@
       "options": [
         {
           "text": "Yes, robust tracking/coding allows easy segregation & reporting. (2)",
-          "score": 2
+          "score": 2,
+          "classification": "Compliant"
         },
         {
           "text": "Partially, basic tracking exists but distinction isn't always clear/easy. (1)",
-          "score": 1
+          "score": 1,
+          "classification": "At Risk"
         },
         {
           "text": "No, funds generally co-mingled without specific tracking/reporting capability. (0)",
-          "score": 0
+          "score": 0,
+          "classification": "Non-compliant"
         },
         {
           "text": "Not Applicable (Only receives unrestricted general funds). (0)",
-          "score": 0
+          "score": 0,
+          "classification": "Non-compliant"
         }
       ]
     },
@@ -363,19 +422,23 @@
       "options": [
         {
           "text": "Yes, clear documented process with risk levels & triggers, consistently applied. (3)",
-          "score": 3
+          "score": 3,
+          "classification": "Best Practice"
         },
         {
           "text": "Basic process exists, applied inconsistently or lacks clear triggers/risk levels. (2)",
-          "score": 2
+          "score": 2,
+          "classification": "Compliant"
         },
         {
           "text": "Process informal or poorly defined / Enhanced checks rarely done. (1)",
-          "score": 1
+          "score": 1,
+          "classification": "At Risk"
         },
         {
           "text": "No defined donor screening/due diligence process. (0)",
-          "score": 0
+          "score": 0,
+          "classification": "Non-compliant"
         }
       ]
     },
@@ -386,19 +449,23 @@
       "options": [
         {
           "text": "Very Clearly: Explicit, prominent communication in materials/receipts. (2)",
-          "score": 2
+          "score": 2,
+          "classification": "Compliant"
         },
         {
           "text": "Adequately: Mentioned, but could be clearer or more consistently applied. (1)",
-          "score": 1
+          "score": 1,
+          "classification": "At Risk"
         },
         {
           "text": "Not Clearly Communicated / Ambiguous messaging. (0)",
-          "score": 0
+          "score": 0,
+          "classification": "Non-compliant"
         },
         {
           "text": "Not Applicable (Only receives unrestricted general funds). (0)",
-          "score": 0
+          "score": 0,
+          "classification": "Non-compliant"
         }
       ]
     },
@@ -409,19 +476,23 @@
       "options": [
         {
           "text": "Yes, robust segregation (separate accounts or strict accounting controls). (2)",
-          "score": 2
+          "score": 2,
+          "classification": "Compliant"
         },
         {
           "text": "Basic segregation/tracking exists, but risk of co-mingling or misuse. (1)",
-          "score": 1
+          "score": 1,
+          "classification": "At Risk"
         },
         {
           "text": "No effective segregation, funds co-mingled / High risk of misuse. (0)",
-          "score": 0
+          "score": 0,
+          "classification": "Non-compliant"
         },
         {
           "text": "Not Applicable (Only receives unrestricted general funds). (0)",
-          "score": 0
+          "score": 0,
+          "classification": "Non-compliant"
         }
       ]
     },
@@ -432,15 +503,18 @@
       "options": [
         {
           "text": "Yes, multiple convenient & secure channels actively offered & maintained. (2)",
-          "score": 2
+          "score": 2,
+          "classification": "Compliant"
         },
         {
           "text": "Limited channels offered (e.g., only 1-2 options) / Some usability issues. (1)",
-          "score": 1
+          "score": 1,
+          "classification": "At Risk"
         },
         {
           "text": "Only one channel offered / Channels are inconvenient or lack security. (0)",
-          "score": 0
+          "score": 0,
+          "classification": "Non-compliant"
         }
       ]
     },
@@ -451,15 +525,18 @@
       "options": [
         {
           "text": "Fully Prepared: Systems allow easy, accurate generation on demand. (2)",
-          "score": 2
+          "score": 2,
+          "classification": "Compliant"
         },
         {
           "text": "Moderately Prepared: Could compile with significant effort / System limitations. (1)",
-          "score": 1
+          "score": 1,
+          "classification": "At Risk"
         },
         {
           "text": "Unprepared: Unable to provide detailed reports / Systems inadequate. (0)",
-          "score": 0
+          "score": 0,
+          "classification": "Non-compliant"
         }
       ]
     },
@@ -470,15 +547,18 @@
       "options": [
         {
           "text": "Yes, specific, regular reports/updates provided proactively. (2)",
-          "score": 2
+          "score": 2,
+          "classification": "Compliant"
         },
         {
           "text": "Reports provided occasionally, upon request, or lack specific detail. (1)",
-          "score": 1
+          "score": 1,
+          "classification": "At Risk"
         },
         {
           "text": "No specific reporting back to donors beyond generic annual reports. (0)",
-          "score": 0
+          "score": 0,
+          "classification": "Non-compliant"
         }
       ]
     },
@@ -489,15 +569,18 @@
       "options": [
         {
           "text": "Yes, impact/stories regularly communicated through various channels. (2)",
-          "score": 2
+          "score": 2,
+          "classification": "Compliant"
         },
         {
           "text": "Impact/stories shared occasionally or lack depth. (1)",
-          "score": 1
+          "score": 1,
+          "classification": "At Risk"
         },
         {
           "text": "Primarily reports only financial usage / Impact communication minimal. (0)",
-          "score": 0
+          "score": 0,
+          "classification": "Non-compliant"
         }
       ]
     },
@@ -508,15 +591,18 @@
       "options": [
         {
           "text": "Yes, formal tools used regularly by relevant departments/staff. (2)",
-          "score": 2
+          "score": 2,
+          "classification": "Compliant"
         },
         {
           "text": "Informal checks performed occasionally / Tools exist but not used consistently. (1)",
-          "score": 1
+          "score": 1,
+          "classification": "At Risk"
         },
         {
           "text": "No internal self-assessment tools or regular checks used. (0)",
-          "score": 0
+          "score": 0,
+          "classification": "Non-compliant"
         }
       ]
     },
@@ -527,19 +613,23 @@
       "options": [
         {
           "text": "Yes, formal verification process exists and is implemented. (2)",
-          "score": 2
+          "score": 2,
+          "classification": "Compliant"
         },
         {
           "text": "Informal checks or reliance solely on declaration without verification. (1)",
-          "score": 1
+          "score": 1,
+          "classification": "At Risk"
         },
         {
           "text": "No verification of self-assessments performed. (0)",
-          "score": 0
+          "score": 0,
+          "classification": "Non-compliant"
         },
         {
           "text": "Not Applicable (No self-assessments done). (0)",
-          "score": 0
+          "score": 0,
+          "classification": "Non-compliant"
         }
       ]
     },
@@ -550,15 +640,18 @@
       "options": [
         {
           "text": "Yes, formal, confidential channel exists, is known and utilized. (2)",
-          "score": 2
+          "score": 2,
+          "classification": "Compliant"
         },
         {
           "text": "Informal channels exist (e.g., report to manager) / Formal channel unclear. (1)",
-          "score": 1
+          "score": 1,
+          "classification": "At Risk"
         },
         {
           "text": "No formal or clear channel for incident reporting. (0)",
-          "score": 0
+          "score": 0,
+          "classification": "Non-compliant"
         }
       ]
     },
@@ -569,19 +662,23 @@
       "options": [
         {
           "text": "Proactive & Regular Oversight: Dedicated agenda items, reviews reports/risks. (3)",
-          "score": 3
+          "score": 3,
+          "classification": "Best Practice"
         },
         {
           "text": "Periodic Review: Addressed annually or when significant issues arise. (2)",
-          "score": 2
+          "score": 2,
+          "classification": "Compliant"
         },
         {
           "text": "Minimal / Infrequent Oversight: Rarely discussed at Board/Committee level. (1)",
-          "score": 1
+          "score": 1,
+          "classification": "At Risk"
         },
         {
           "text": "No specific Board/Committee oversight of fundraising compliance/risks. (0)",
-          "score": 0
+          "score": 0,
+          "classification": "Non-compliant"
         }
       ]
     },
@@ -592,15 +689,18 @@
       "options": [
         {
           "text": "Yes, reviewed recently (e.g., within 2-3 years) and confirmed alignment. (2)",
-          "score": 2
+          "score": 2,
+          "classification": "Compliant"
         },
         {
           "text": "Reviewed in the past (>3 years ago), assume alignment / Informal review only. (1)",
-          "score": 1
+          "score": 1,
+          "classification": "At Risk"
         },
         {
           "text": "No recent review or confirmation of alignment. (0)",
-          "score": 0
+          "score": 0,
+          "classification": "Non-compliant"
         }
       ]
     },
@@ -611,15 +711,18 @@
       "options": [
         {
           "text": "Yes, relevant committees exist with appropriate independent members. (2)",
-          "score": 2
+          "score": 2,
+          "classification": "Compliant"
         },
         {
           "text": "Committees exist but lack independent members / Independence questionable. (1)",
-          "score": 1
+          "score": 1,
+          "classification": "At Risk"
         },
         {
           "text": "No specific oversight committees utilized for these functions. (0)",
-          "score": 0
+          "score": 0,
+          "classification": "Non-compliant"
         }
       ]
     },
@@ -630,15 +733,18 @@
       "options": [
         {
           "text": "Yes, strong diverse expertise represented and actively engaged. (2)",
-          "score": 2
+          "score": 2,
+          "classification": "Compliant"
         },
         {
           "text": "Some relevant expertise exists, but lacks diversity or depth / Engagement low. (1)",
-          "score": 1
+          "score": 1,
+          "classification": "At Risk"
         },
         {
           "text": "Oversight body lacks diverse or relevant expertise for key areas. (0)",
-          "score": 0
+          "score": 0,
+          "classification": "Non-compliant"
         }
       ]
     },
@@ -649,15 +755,18 @@
       "options": [
         {
           "text": "Yes, formal reviews conducted regularly (e.g., annually) covering key risks. (2)",
-          "score": 2
+          "score": 2,
+          "classification": "Compliant"
         },
         {
           "text": "Informal or ad-hoc reviews conducted / Scope or independence limited. (1)",
-          "score": 1
+          "score": 1,
+          "classification": "At Risk"
         },
         {
           "text": "No regular internal compliance reviews conducted. (0)",
-          "score": 0
+          "score": 0,
+          "classification": "Non-compliant"
         }
       ]
     },
@@ -668,15 +777,18 @@
       "options": [
         {
           "text": "Yes, clearly defined, documented, and understood roles & structure. (2)",
-          "score": 2
+          "score": 2,
+          "classification": "Compliant"
         },
         {
           "text": "Roles exist but are informal or not clearly defined/documented / Overlap exists. (1)",
-          "score": 1
+          "score": 1,
+          "classification": "At Risk"
         },
         {
           "text": "No defined structure or roles for risk management/compliance. (0)",
-          "score": 0
+          "score": 0,
+          "classification": "Non-compliant"
         }
       ]
     },
@@ -687,15 +799,18 @@
       "options": [
         {
           "text": "Yes, mandatory regular training/refreshers with effectiveness checks. (2)",
-          "score": 2
+          "score": 2,
+          "classification": "Compliant"
         },
         {
           "text": "Training provided initially or ad-hoc / Lacks regularity or effectiveness checks. (1)",
-          "score": 1
+          "score": 1,
+          "classification": "At Risk"
         },
         {
           "text": "No specific compliance training provided for relevant personnel. (0)",
-          "score": 0
+          "score": 0,
+          "classification": "Non-compliant"
         }
       ]
     },
@@ -706,15 +821,18 @@
       "options": [
         {
           "text": "Yes, specific checklists are integrated into processes & used consistently. (2)",
-          "score": 2
+          "score": 2,
+          "classification": "Compliant"
         },
         {
           "text": "Checklists exist but are not used consistently or lack key controls. (1)",
-          "score": 1
+          "score": 1,
+          "classification": "At Risk"
         },
         {
           "text": "No operational checklists used for these processes. (0)",
-          "score": 0
+          "score": 0,
+          "classification": "Non-compliant"
         }
       ]
     },
@@ -725,15 +843,18 @@
       "options": [
         {
           "text": "Yes, actively used platforms for regular & effective knowledge sharing. (2)",
-          "score": 2
+          "score": 2,
+          "classification": "Compliant"
         },
         {
           "text": "Platforms exist but used infrequently / Info outdated or hard to find. (1)",
-          "score": 1
+          "score": 1,
+          "classification": "At Risk"
         },
         {
           "text": "No specific platforms/processes used for sharing this knowledge. (0)",
-          "score": 0
+          "score": 0,
+          "classification": "Non-compliant"
         }
       ]
     },
@@ -744,19 +865,23 @@
       "options": [
         {
           "text": "Yes, explicitly risk-based with documented assessment, covers key areas. (2)",
-          "score": 2
+          "score": 2,
+          "classification": "Compliant"
         },
         {
           "text": "Considers risk informally / Lacks documented assessment / Coverage limited. (1)",
-          "score": 1
+          "score": 1,
+          "classification": "At Risk"
         },
         {
           "text": "IA plan not risk-based / Key areas not covered. (0)",
-          "score": 0
+          "score": 0,
+          "classification": "Non-compliant"
         },
         {
           "text": "Not Applicable (No IA function). (0)",
-          "score": 0
+          "score": 0,
+          "classification": "Non-compliant"
         }
       ]
     },
@@ -767,19 +892,23 @@
       "options": [
         {
           "text": "Yes, formal, tracked follow-up process with management accountability. (2)",
-          "score": 2
+          "score": 2,
+          "classification": "Compliant"
         },
         {
           "text": "Follow-up is informal or ad-hoc / Tracking is weak. (1)",
-          "score": 1
+          "score": 1,
+          "classification": "At Risk"
         },
         {
           "text": "No formal follow-up process / Findings often unresolved. (0)",
-          "score": 0
+          "score": 0,
+          "classification": "Non-compliant"
         },
         {
           "text": "Not Applicable (No IA function / No relevant findings). (0)",
-          "score": 0
+          "score": 0,
+          "classification": "Non-compliant"
         }
       ]
     },
@@ -790,19 +919,23 @@
       "options": [
         {
           "text": "Yes, repeat findings specifically tracked & rating/attention escalated. (2)",
-          "score": 2
+          "score": 2,
+          "classification": "Compliant"
         },
         {
           "text": "Repeat findings noted, but no formal escalation process exists. (1)",
-          "score": 1
+          "score": 1,
+          "classification": "At Risk"
         },
         {
           "text": "Repeat findings not specifically tracked or escalated. (0)",
-          "score": 0
+          "score": 0,
+          "classification": "Non-compliant"
         },
         {
           "text": "Not Applicable (No IA function / No relevant repeat findings). (0)",
-          "score": 0
+          "score": 0,
+          "classification": "Non-compliant"
         }
       ]
     },
@@ -813,19 +946,23 @@
       "options": [
         {
           "text": "Yes, satisfactory EQAR completed within the last 5 years. (2)",
-          "score": 2
+          "score": 2,
+          "classification": "Compliant"
         },
         {
           "text": "EQAR completed >5 years ago / Planned but not yet done / Outcome unsatisfactory. (1)",
-          "score": 1
+          "score": 1,
+          "classification": "At Risk"
         },
         {
           "text": "No EQAR conducted / Not considered. (0)",
-          "score": 0
+          "score": 0,
+          "classification": "Non-compliant"
         },
         {
           "text": "Not Applicable (No IA function). (0)",
-          "score": 0
+          "score": 0,
+          "classification": "Non-compliant"
         }
       ]
     }
