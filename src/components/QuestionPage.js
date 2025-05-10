@@ -112,7 +112,7 @@ const QuestionPage = ({
             ))}
           </div>
           
-          {/* Question tip */}
+          {/* Question tip 
           <div className="px-6 py-4 bg-yellow-50 border-t border-yellow-100">
             <div className="flex">
               <div className="flex-shrink-0">
@@ -124,6 +124,22 @@ const QuestionPage = ({
                 <h4 className="text-sm font-medium text-yellow-800">Guidance Note</h4>
                 <p className="text-sm text-yellow-700 mt-1">
                   Consider all aspects of your organization when answering this question. If different parts of your organization operate differently, choose the option that best represents the overall practice.
+                </p>
+              </div>
+            </div>
+          </div>*/}
+          {/* Question-specific tip */}
+          <div className="px-6 py-4 bg-yellow-50 border-t border-yellow-100">
+            <div className="flex">
+            <div className="flex-shrink-0">
+                <svg className="h-5 w-5 text-yellow-400" viewBox="0 0 20 20" fill="currentColor">
+                  <path fillRule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2h-1V9a1 1 0 00-1-1z" clipRule="evenodd" />
+                </svg>
+              </div>
+              <div>
+                <h4 className="text-sm font-medium text-yellow-800">Guidance Note</h4>
+                <p className="text-sm text-yellow-700 mt-1">
+                  {question.tip || "Consider all aspects of your organization when answering this question."}
                 </p>
               </div>
             </div>

@@ -12,6 +12,7 @@
       "theme": "Authorisation & Compliance",
       "number": 1,
       "question": "Does the organisation obtain necessary approvals/permits (e.g., Police permits, LHDN approvals) before commencing fundraising activities?",
+      "tip": "CLBGs require proper approvals from authorities before fundraising. According to SSM guidelines, prior approval from the Registrar is mandatory before soliciting any contribution or donation from the public. Under the House to House and Street Collections Act 1947, organisations soliciting donations in public places must obtain a permit from the Royal Malaysia Police (PDRM). Failure to obtain proper permits can result in regulatory penalties and affect your tax-exempt status with LHDN.",
       "options": [
         {
           "text": "Yes, always obtained well in advance; process clear & documented. (3)",
@@ -39,16 +40,17 @@
       "theme": "Authorisation & Compliance",
       "number": 2,
       "question": "Does the organisation ensure it meets eligibility requirements before applying for permits, licenses, or specific statuses (e.g., S.45(6))?",
+      "tip": "Section 45(6) of the Companies Act refers to special status applications. Per SSM guidelines, pre-screening against eligibility criteria saves resources and prevents application rejection. For tax exemption under subsection 44(6) of Income Tax Act, specific criteria must be met and verified with LHDN. This approval is not automatic but requires an application that demonstrates your organization meets all necessary charitable objectives and operational requirements.",
       "options": [
         {
           "text": "Yes, eligibility always confirmed systematically before application. (2)",
           "score": 2,
-          "classification": "Compliant"
+          "classification": "Best Practice"
         },
         {
           "text": "Usually confirmed, occasional oversight or assumptions made. (1)",
           "score": 1,
-          "classification": "At Risk"
+          "classification": "Compliant"
         },
         {
           "text": "Rarely confirmed systematically / Eligibility issues often found post-application. (0)",
@@ -66,6 +68,7 @@
       "theme": "Authorisation & Compliance",
       "number": 3,
       "question": "Are applications for permits, grants, or specific statuses submitted with clear, accurate, and complete information?",
+      "tip": "Incomplete or inaccurate applications can lead to delays or rejection. SSM guidelines require CLBG applications to include relevant documentation, justifications and supporting evidence. Applications for tax exemption under subsection 44(6) to LHDN should clearly demonstrate eligibility under the specific charitable categories. Complete information helps authorities verify your organization's legitimacy and expedites the approval process.",
       "options": [
         {
           "text": "Yes, consistently high quality, clear, accurate, and complete. (3)",
@@ -93,21 +96,22 @@
       "theme": "Authorisation & Compliance",
       "number": 4,
       "question": "Does the organisation consistently use correct application procedures/forms (e.g., LHDN, Police) & pay correct fees?",
+      "tip": "Using incorrect forms or not paying the appropriate fees can delay approvals. SSM Checklist 1-8 details specific fees for different applications ranging from RM100 to RM700 depending on the type of approval sought. For LHDN approvals under subsection 44(6), specific application procedures must be followed as outlined in LHDN's guidelines for tax exemption applications. Each regulatory body has its own required documentation and fee structure.",
       "options": [
         {
           "text": "Yes, procedures always followed correctly, correct forms/fees used. (2)",
           "score": 2,
-          "classification": "Compliant"
+          "classification": "Best Practice"
         },
         {
           "text": "Mostly correct, occasional minor errors in procedure, form, or fee. (1)",
           "score": 1,
-          "classification": "At Risk"
+          "classification": "Compliant"
         },
         {
           "text": "Frequent errors in procedure, form, or fee / Unaware of correct process. (0)",
           "score": 0,
-          "classification": "Non-compliant"
+          "classification": "At Risk"
         },
         {
           "text": "Not Applicable (No such submissions made). (0)",
@@ -120,16 +124,17 @@
       "theme": "Authorisation & Compliance",
       "number": 5,
       "question": "If holding tax-exempt status (e.g., S.44(6) ITA 1967), does the organisation understand & comply with all LHDN conditions?",
+      "tip": "Tax exemption under subsection 44(6) of Income Tax Act 1967 requires ongoing compliance with LHDN conditions. Organizations must submit annual returns and ensure all income is applied solely for approved charitable purposes. Non-compliance can result in revocation of tax-exempt status. The LHDN approval allows donors to claim tax deductions up to 10% of their aggregate income for donations made to your organization.",
       "options": [
         {
           "text": "Yes, conditions fully understood, documented, and consistently complied with. (2)",
           "score": 2,
-          "classification": "Compliant"
+          "classification": "Best Practice"
         },
         {
           "text": "Generally understood and complied with, some conditions less clear/monitored. (1)",
           "score": 1,
-          "classification": "At Risk"
+          "classification": "Compliant"
         },
         {
           "text": "Lack of clarity on conditions / Compliance gaps exist / Not monitored. (0)",
@@ -144,9 +149,38 @@
       ]
     },
     {
-      "theme": "Planning & Documentation",
+      "theme": "Authorisation & Compliance",
       "number": 6,
+      "question": "Is there a process to notify relevant teams at least one month before permits/approvals (e.g., Section 45) expire, to allow timely renewal?",
+      "tip": "Timely renewal of permits and approvals is essential to maintain compliance. Most permits issued by SSM and other regulatory bodies have specific validity periods. For example, according to SSM Checklist 6, approvals for soliciting donations have limited duration. A notification system helps ensure renewals are initiated with sufficient time to gather necessary documentation and obtain approvals before expiration.",
+      "options": [
+        {
+          "text": "Yes, automated reminders are in place and tracked by Risk & Compliance. (2)",
+          "score": 2,
+          "classification": "Best Practice"
+        },
+        {
+          "text": "Reminders exist but are manual or sometimes delayed. (1)",
+          "score": 1,
+          "classification": "Compliant"
+        },
+        {
+          "text": "Notifications are ad-hoc or rely on individual memory. (0)",
+          "score": 0,
+          "classification": "At Risk"
+        },
+        {
+          "text": "No expiry-notification process. (0)",
+          "score": 0,
+          "classification": "Non-compliant"
+        }
+      ]
+    },
+    {
+      "theme": "Planning & Documentation",
+      "number": 7,
       "question": "Are up-to-date copies of essential documents (Constitution/Rules, Reg docs, licenses) readily available?",
+      "tip": "The Companies Act 2016 requires CLBGs to maintain up-to-date documentation. Your constitution should comply with Section 11 of the Companies Act 2016, and any amendments require prior approval from the Registrar as stated in paragraph 13 of the SSM Guidelines on CLBG. These documents should be accessible at your registered office for inspection by authorities when requested.",
       "options": [
         {
           "text": "Yes, all key documents are current and readily accessible. (2)",
@@ -156,7 +190,7 @@
         {
           "text": "Most are available, some may need locating or updating. (1)",
           "score": 1,
-          "classification": "At Risk"
+          "classification": "Compliant"
         },
         {
           "text": "Significant documents are outdated or difficult to locate. (0)",
@@ -167,8 +201,9 @@
     },
     {
       "theme": "Planning & Documentation",
-      "number": 7,
+      "number": 8,
       "question": "Is there a documented plan for significant fundraising activities (objectives, methods, audience, procedures)?",
+      "tip": "SSM guidelines require CLBGs to obtain approval before soliciting donations. Your fundraising plan should align with your objectives stated in your constitution and comply with Paragraph 23(d) of the Guidelines on CLBG or Section 45 of the Companies Act 2016. According to SSM Checklist 6, fundraising proposals should include objectives, procedures, targeted audience, and collection processes to help ensure regulatory compliance.",
       "options": [
         {
           "text": "Yes, comprehensive, documented plan exists and is followed/updated. (3)",
@@ -194,8 +229,9 @@
     },
     {
       "theme": "Planning & Documentation",
-      "number": 8,
+      "number": 9,
       "question": "Is there a clearly documented process for handling donations (receipt, recording, banking, acknowledgement, controls)?",
+      "tip": "Proper donation documentation is essential for CLBGs. The Companies Act 2016 requires transparent financial records. For tax-exempt organizations under subsection 44(6) of Income Tax Act 1967, LHDN requires clear documentation of all donations received and how they are utilized. Official receipts should include the name and address of the organization, printed serial numbers, and other information required by LHDN for tax-exemption purposes.",
       "options": [
         {
           "text": "Yes, robust, clear, documented process consistently followed. (3)",
@@ -221,13 +257,14 @@
     },
     {
       "theme": "Planning & Documentation",
-      "number": 9,
+      "number": 10,
       "question": "Does the organisation maintain detailed internal procedures (SOPs) for key fundraising and fund management tasks, reviewed/updated regularly?",
+      "tip": "Standard Operating Procedures (SOPs) help ensure consistency and compliance. For CLBGs, SOPs should cover governance requirements mentioned in SSM Guidelines including donation handling, authorizations, and financial controls. Regular reviews help ensure procedures remain current with regulatory changes and minimize risks of non-compliance with changing regulations and reporting requirements.",
       "options": [
         {
           "text": "Yes, detailed SOPs exist, are regularly updated and actively used. (2)",
           "score": 2,
-          "classification": "Compliant"
+          "classification": "Best Practice"
         },
         {
           "text": "Basic SOPs exist but lack detail or regular updates / Use is inconsistent. (1)",
@@ -243,13 +280,14 @@
     },
     {
       "theme": "Planning & Documentation",
-      "number": 10,
+      "number": 11,
       "question": "Is there a process to review fundraising appeals/materials for accuracy and compliance before use?",
+      "tip": "Fundraising materials should accurately represent your organization's purpose and activities. For CLBGs seeking donations, SSM requires approval and detailed proposals including promotional materials. These materials should not mislead the public and must correctly represent your tax-exempt status if applicable. As mentioned in Checklist 6 for solicitation of donation, sample promotional documents must be submitted to SSM for review before use.",
       "options": [
         {
           "text": "Yes, formal review process consistently applied before publication. (2)",
           "score": 2,
-          "classification": "Compliant"
+          "classification": "Best Practice"
         },
         {
           "text": "Informal review usually happens / Process applied inconsistently. (1)",
@@ -270,8 +308,9 @@
     },
     {
       "theme": "Planning & Documentation",
-      "number": 11,
+      "number": 12,
       "question": "Are necessary internal authorisations (e.g., Board/Committee resolutions) documented for initiating campaigns or applications?",
+      "tip": "Under the Companies Act 2016, formal Board resolutions are required for major decisions. For CLBGs, SSM guidelines require documented Board approvals for key activities including fundraising campaigns and applications for permits or tax exemptions. According to SSM Checklist 6, these resolutions should be properly recorded in meeting minutes and signed by a Director and Company Secretary for submission with applications.",
       "options": [
         {
           "text": "Yes, required authorisations always documented appropriately. (2)",
@@ -292,8 +331,9 @@
     },
     {
       "theme": "Planning & Documentation",
-      "number": 12,
+      "number": 13,
       "question": "Are annual financial audits completed promptly for timely reporting & submission to SSM/ROS/LHDN?",
+      "tip": "Under Companies Act 2016, CLBGs must submit audited financial statements to SSM within 30 days after the annual general meeting. For tax-exempt organizations under subsection 44(6), timely submission of audited accounts to LHDN is crucial to maintain tax-exempt status. Paragraph 23 of SSM Guidelines also requires CLBGs to provide information with comments on their financial position at least for the last three years to maintain their special status.",
       "options": [
         {
           "text": "Yes, always completed on time to meet deadlines. (2)",
@@ -314,8 +354,37 @@
     },
     {
       "theme": "Planning & Documentation",
-      "number": 13,
+      "number": 14,
+      "question": "Are risk-assessment checkpoints integrated into project approval processes (e.g., grant applications, new service launches, travel approvals)?",
+      "tip": "Risk assessments are a key part of good governance for CLBGs. Though not explicitly required by SSM, integrating risk assessments into project approval processes helps identify potential compliance issues before they occur. For activities that require SSM or LHDN approval, a formal risk assessment can help ensure all regulatory requirements are considered and addressed before submission.",
+      "options": [
+        {
+          "text": "Yes, every proposal requires a documented risk assessment before sign-off. (3)",
+          "score": 3,
+          "classification": "Best Practice"
+        },
+        {
+          "text": "Most proposals include risk checks, but some bypass the process. (2)",
+          "score": 2,
+          "classification": "Compliant"
+        },
+        {
+          "text": "Risk checks are optional or ad-hoc. (1)",
+          "score": 1,
+          "classification": "At Risk"
+        },
+        {
+          "text": "No risk-assessment integration in project processes. (0)",
+          "score": 0,
+          "classification": "Non-compliant"
+        }
+      ]
+    },
+    {
+      "theme": "Planning & Documentation",
+      "number": 15,
       "question": "Does the organisation have a documented overall fundraising strategy (goals, donors, channels, KPIs)?",
+      "tip": "A documented fundraising strategy helps ensure activities align with your CLBG's objectives. For solicitation of donations from the public, SSM requires prior approval with detailed proposals including objectives, procedures, targeted audience, and collection processes. This strategy should reflect your organization's charitable purposes and be governed by your board or trustees to ensure alignment with your organization's mission.",
       "options": [
         {
           "text": "Yes, comprehensive, documented strategy exists and is reviewed regularly. (2)",
@@ -336,8 +405,9 @@
     },
     {
       "theme": "Fund Management & Controls",
-      "number": 14,
+      "number": 16,
       "question": "Does the organisation maintain accurate, complete, and well-organized records for all donations received?",
+      "tip": "Proper donation records are essential for CLBGs. According to SSM guidelines, organizations must maintain detailed records of all donations, especially for public fundraising. For tax-exempt organizations under subsection 44(6), LHDN requires comprehensive records including details like donor name, NRIC/passport or business registration number, and complete address to verify funds are used for approved charitable purposes.",
       "options": [
         {
           "text": "Excellent: Detailed, accurate, complete, well-organized records. (3)",
@@ -363,8 +433,9 @@
     },
     {
       "theme": "Fund Management & Controls",
-      "number": 15,
+      "number": 17,
       "question": "How effectively does the organisation track and ensure funds raised are used strictly per solicited purpose or donor/LHDN restrictions?",
+      "tip": "CLBGs must use funds for their stated charitable purposes. According to Paragraph 23(c) of the SSM Guidelines, all profits and income must be used for the purposes stated in the objects of the company. For tax-exempt status under subsection 44(6), LHDN requires funds to be used exclusively for approved charitable purposes. Any deviation may result in penalties or revocation of tax-exempt status.",
       "options": [
         {
           "text": "Highly Effective: Strict tracking, controls ensure compliance. (3)",
@@ -390,8 +461,9 @@
     },
     {
       "theme": "Fund Management & Controls",
-      "number": 16,
+      "number": 18,
       "question": "Does the accounting system allow for clear segregation and reporting of funds related to specific campaigns or restricted purposes?",
+      "tip": "CLBGs should maintain clear segregation of funds, especially for restricted donations. According to Companies Act 2016 and SSM guidelines, organizations must maintain proper accounting records that allow for accurate financial reporting. This is particularly important for LHDN compliance if you hold tax-exempt status under subsection 44(6), as you must demonstrate that funds are being used for their intended charitable purposes.",
       "options": [
         {
           "text": "Yes, robust tracking/coding allows easy segregation & reporting. (2)",
@@ -417,8 +489,9 @@
     },
     {
       "theme": "Fund Management & Controls",
-      "number": 17,
+      "number": 19,
       "question": "Does the organisation have a defined risk-based donor due diligence (DDD) process, including triggers & awareness of AMLA requirements?",
+      "tip": "Due diligence on donors is important to comply with Anti-Money Laundering Act (AMLA) requirements in Malaysia. CLBGs should verify the source of significant donations and be aware of reporting obligations for suspicious transactions. This is particularly important when receiving large or international donations. Enhanced due diligence should be conducted for high-risk donors to protect the organization's reputation and legal standing.",
       "options": [
         {
           "text": "Yes, clear documented process with risk levels & triggers, consistently applied. (3)",
@@ -444,8 +517,9 @@
     },
     {
       "theme": "Fund Management & Controls",
-      "number": 18,
+      "number": 20,
       "question": "How clearly does the organisation communicate fund restrictions (e.g., specific project vs general) to donors?",
+      "tip": "Clear communication about fund restrictions helps ensure transparency with donors. For CLBGs, especially those with tax-exempt status under subsection 44(6), donors should understand how their contributions will be used. This helps maintain compliance with both SSM guidelines and LHDN requirements for charitable organizations. Unclear communication could lead to potential disputes and reputational damage.",
       "options": [
         {
           "text": "Very Clearly: Explicit, prominent communication in materials/receipts. (2)",
@@ -471,8 +545,9 @@
     },
     {
       "theme": "Fund Management & Controls",
-      "number": 19,
+      "number": 21,
       "question": "Are restricted funds managed and accounted for separately (physically or via accounting controls) to ensure compliance?",
+      "tip": "Restricted funds require proper segregation. According to accounting standards and SSM guidelines for CLBGs, funds designated for specific purposes should be tracked separately. This is particularly important for organizations with tax-exempt status under subsection 44(6), as LHDN requires clear accounting for charitable funds. Proper segregation helps prevent unintentional misuse and demonstrates accountability to donors and regulators.",
       "options": [
         {
           "text": "Yes, robust segregation (separate accounts or strict accounting controls). (2)",
@@ -498,8 +573,9 @@
     },
     {
       "theme": "Fund Management & Controls",
-      "number": 20,
+      "number": 22,
       "question": "Does the organisation offer multiple, convenient, and secure channels for donors to make contributions?",
+      "tip": "Providing diverse donation channels improves donor experience. However, for CLBGs in Malaysia, it's important to ensure all channels comply with regulatory requirements. Remember that prior approval for solicitation of donations is required from SSM, and all channels should have proper security and documentation systems. This includes online platforms, which must still adhere to the same record-keeping and reporting requirements.",
       "options": [
         {
           "text": "Yes, multiple convenient & secure channels actively offered & maintained. (2)",
@@ -519,9 +595,38 @@
       ]
     },
     {
+      "theme": "Fund Management & Controls",
+      "number": 23,
+      "question": "Does the organisation engage external risk/compliance experts or subscription services for specialised due diligence (e.g., traveller security, donor KYC for large gifts)?",
+      "tip": "External expertise can enhance risk management and compliance. While not explicitly required by SSM guidelines, engaging specialists for complex areas like donor due diligence, Anti-Money Laundering compliance, or international activities demonstrates a commitment to good governance. For CLBGs with substantial fundraising activities or operating in high-risk environments, external expertise helps ensure thorough compliance with all applicable laws and regulations.",
+      "options": [
+        {
+          "text": "Yes, contracts with qualified external experts/services are maintained and reviewed annually. (2)",
+          "score": 2,
+          "classification": "Best Practice"
+        },
+        {
+          "text": "Occasional use of external experts when issues arise. (1)",
+          "score": 1,
+          "classification": "Compliant"
+        },
+        {
+          "text": "Rarely engages external experts; relies solely on in-house capability. (0)",
+          "score": 0,
+          "classification": "At Risk"
+        },
+        {
+          "text": "No engagement of external risk/compliance experts. (0)",
+          "score": 0,
+          "classification": "Non-compliant"
+        }
+      ]
+    },
+    {
       "theme": "Reporting & Transparency",
-      "number": 21,
+      "number": 24,
       "question": "Is the organisation prepared to provide detailed financial reports on campaigns/fund usage if required (e.g., by LHDN, Police, donors)?",
+      "tip": "CLBGs must be ready to provide detailed financial reports when required. Under Companies Act 2016, organizations must maintain proper accounting records. For tax-exempt organizations under subsection 44(6), LHDN may request detailed reporting on fund usage to verify compliance with approved charitable purposes. The SSM may also request segmental reporting together with financial statements as noted in paragraph 14 of the CLBG Guidelines.",
       "options": [
         {
           "text": "Fully Prepared: Systems allow easy, accurate generation on demand. (2)",
@@ -542,8 +647,9 @@
     },
     {
       "theme": "Reporting & Transparency",
-      "number": 22,
+      "number": 25,
       "question": "Does the organisation provide appropriate reports/updates to donors on fund usage and impact?",
+      "tip": "Donor reporting demonstrates transparency and accountability. While not explicitly required by SSM, regular reports to donors on fund usage builds trust. For tax-exempt organizations under subsection 44(6), demonstrating impact helps support continued compliance with LHDN requirements for charitable status. Transparent reporting enhances donor confidence and can lead to increased support for your organization's mission.",
       "options": [
         {
           "text": "Yes, specific, regular reports/updates provided proactively. (2)",
@@ -564,8 +670,9 @@
     },
     {
       "theme": "Reporting & Transparency",
-      "number": 23,
+      "number": 26,
       "question": "Does the organisation actively communicate the impact and outcomes achieved with donated funds (beyond just financials)?",
+      "tip": "Impact reporting goes beyond financial statements to show actual outcomes. For CLBGs with charitable objectives under Section 45 of Companies Act 2016, communicating impact helps demonstrate fulfillment of your stated purposes. This is particularly important for organizations with tax-exempt status under subsection 44(6) of Income Tax Act. Impact stories help stakeholders understand the real-world difference made by their contributions.",
       "options": [
         {
           "text": "Yes, impact/stories regularly communicated through various channels. (2)",
@@ -586,8 +693,9 @@
     },
     {
       "theme": "Reporting & Transparency",
-      "number": 24,
+      "number": 27,
       "question": "Does the organisation utilize tools (like checklists/self-assessments) internally to monitor adherence to policies?",
+      "tip": "Internal monitoring tools help ensure compliance with policies and regulations. For CLBGs, regular self-assessments against SSM guidelines and Companies Act 2016 requirements can identify potential issues before they become significant. This is particularly important for maintaining tax-exempt status under subsection 44(6) with LHDN. Regular monitoring demonstrates good governance and proactive compliance management.",
       "options": [
         {
           "text": "Yes, formal tools used regularly by relevant departments/staff. (2)",
@@ -608,8 +716,9 @@
     },
     {
       "theme": "Reporting & Transparency",
-      "number": 25,
+      "number": 28,
       "question": "Is there a mechanism (e.g., management, audit, compliance) to verify accuracy of internal compliance checks/self-assessments?",
+      "tip": "Verification of compliance self-assessments adds a layer of assurance. For CLBGs, this is good governance practice that aligns with Companies Act 2016 requirements for proper management oversight. Independent verification helps ensure that your organization remains compliant with both SSM guidelines and LHDN requirements if tax-exempt. This second level of review can identify gaps that might be overlooked in self-assessments.",
       "options": [
         {
           "text": "Yes, formal verification process exists and is implemented. (2)",
@@ -635,8 +744,9 @@
     },
     {
       "theme": "Reporting & Transparency",
-      "number": 26,
+      "number": 29,
       "question": "Is there a formal channel for staff/volunteers to report potential compliance breaches or incidents?",
+      "tip": "Whistleblowing channels are important for identifying compliance issues. While not specifically required by SSM for CLBGs, having reporting mechanisms demonstrates good governance. This can help prevent issues that might affect your status under Companies Act 2016 or tax-exempt status with LHDN under subsection 44(6). Early detection of compliance issues allows for timely resolution before they escalate into more serious problems.",
       "options": [
         {
           "text": "Yes, formal, confidential channel exists, is known and utilized. (2)",
@@ -657,8 +767,9 @@
     },
     {
       "theme": "Governance & Oversight",
-      "number": 27,
+      "number": 30,
       "question": "How actively does the Board/Committee oversee fundraising activities, risks, and compliance?",
+      "tip": "Active board oversight is crucial for CLBGs. According to SSM Guidelines paragraphs 8-10, directors must be fit and proper individuals who can carry out their duties effectively. The board should regularly review fundraising activities, risk management, and compliance matters to ensure adherence to the organization's objects and regulatory requirements. This oversight is particularly important for maintaining tax-exempt status under subsection 44(6) of Income Tax Act.",
       "options": [
         {
           "text": "Proactive & Regular Oversight: Dedicated agenda items, reviews reports/risks. (3)",
@@ -684,8 +795,9 @@
     },
     {
       "theme": "Governance & Oversight",
-      "number": 28,
+      "number": 31,
       "question": "Has the organisation reviewed its governing document (Constitution/Rules) regarding fundraising powers and ensured alignment?",
+      "tip": "Regular review of governing documents is important for CLBGs. According to paragraph 13 of SSM Guidelines, prior approval from the Registrar must be obtained to amend the constitution. The constitution should clearly outline the organization's objects and powers, including fundraising activities. Ensuring alignment between your constitution and actual fundraising practices helps maintain compliance with Companies Act 2016 and SSM requirements.",
       "options": [
         {
           "text": "Yes, reviewed recently (e.g., within 2-3 years) and confirmed alignment. (2)",
@@ -706,8 +818,9 @@
     },
     {
       "theme": "Governance & Oversight",
-      "number": 29,
+      "number": 32,
       "question": "Does the organisation utilize committees (e.g., Audit, Finance) with independent members/directors for oversight where appropriate?",
+      "tip": "Specialized committees enhance governance for CLBGs. While not explicitly required by SSM Guidelines, committees with independent members provide additional oversight and expertise. This is particularly valuable for complex areas like finance, audit, and compliance. Independent committee members can offer objective perspectives and specialized knowledge to support the board in fulfilling its fiduciary duties.",
       "options": [
         {
           "text": "Yes, relevant committees exist with appropriate independent members. (2)",
@@ -728,8 +841,9 @@
     },
     {
       "theme": "Governance & Oversight",
-      "number": 30,
+      "number": 33,
       "question": "Do the Board/Committee collectively possess diverse, relevant expertise (finance, legal, non-profit, industry)?",
+      "tip": "SSM Guidelines for CLBGs (paragraph 9) emphasize the importance of directors having relevant experience, qualification, and competency. A diverse board with complementary skills helps ensure effective governance across various aspects of the organization's operations. As per SSM requirements, directors should have the necessary expertise to carry out their duties and further the organization's charitable objectives.",
       "options": [
         {
           "text": "Yes, strong diverse expertise represented and actively engaged. (2)",
@@ -750,8 +864,9 @@
     },
     {
       "theme": "Governance & Oversight",
-      "number": 31,
+      "number": 34,
       "question": "Does the organisation conduct formal, periodic internal compliance reviews (independent of the audited functions)?",
+      "tip": "Internal compliance reviews help maintain adherence to regulations. While not explicitly required by SSM Guidelines, periodic reviews of compliance with Companies Act 2016, SSM requirements, and LHDN conditions (if tax-exempt) demonstrate good governance. Independent reviews, conducted by staff or board members not directly involved in the audited functions, can identify issues that might be missed in regular operations.",
       "options": [
         {
           "text": "Yes, formal reviews conducted regularly (e.g., annually) covering key risks. (2)",
@@ -772,8 +887,9 @@
     },
     {
       "theme": "Governance & Oversight",
-      "number": 32,
+      "number": 35,
       "question": "Does the organisation have clearly defined roles/responsibilities for risk management & compliance (e.g., 'Lines of Defense')?",
+      "tip": "Clear roles and responsibilities for risk management and compliance are important for CLBGs. Though not specifically required by SSM Guidelines, defining who is responsible for identifying, managing, and monitoring risks helps ensure effective oversight. A structured approach, such as the 'Three Lines of Defense' model (operational management, risk/compliance functions, and internal audit), can enhance governance and prevent compliance issues.",
       "options": [
         {
           "text": "Yes, clearly defined, documented, and understood roles & structure. (2)",
@@ -794,8 +910,9 @@
     },
     {
       "theme": "Governance & Oversight",
-      "number": 33,
+      "number": 36,
       "question": "Do staff/volunteers involved in fundraising/fund mgt receive regular training on policies, procedures & compliance (incl. AMLA awareness)?",
+      "tip": "Training on policies, procedures, and compliance is essential for CLBGs. Staff and volunteers involved in fundraising and fund management should understand their obligations under Companies Act 2016, SSM Guidelines, and if applicable, LHDN requirements for tax-exempt organizations. Training on Anti-Money Laundering Act (AMLA) awareness is particularly important for organizations receiving significant or international donations.",
       "options": [
         {
           "text": "Yes, mandatory regular training/refreshers with effectiveness checks. (2)",
@@ -816,8 +933,9 @@
     },
     {
       "theme": "Governance & Oversight",
-      "number": 34,
+      "number": 37,
       "question": "Do operational teams use tools like checklists regularly to ensure adherence to key fundraising/donation process steps?",
+      "tip": "Operational checklists help ensure consistency and compliance in fundraising activities. Although not specifically required by SSM Guidelines, using checklists for key processes helps staff and volunteers follow correct procedures for donation handling, record-keeping, and fund management. This is particularly important for maintaining compliance with LHDN requirements if your organization holds tax-exempt status under subsection 44(6).",
       "options": [
         {
           "text": "Yes, specific checklists are integrated into processes & used consistently. (2)",
@@ -838,8 +956,9 @@
     },
     {
       "theme": "Governance & Oversight",
-      "number": 35,
+      "number": 38,
       "question": "Are internal platforms/processes used effectively to share knowledge/updates on governance, risk, and compliance matters?",
+      "tip": "Knowledge sharing on governance, risk, and compliance matters supports consistent practices. While not explicitly required by SSM Guidelines, effective information sharing helps ensure all relevant staff and board members are aware of regulatory requirements, policy changes, and compliance issues. This is particularly important for CLBGs with multiple departments or locations involved in fundraising activities.",
       "options": [
         {
           "text": "Yes, actively used platforms for regular & effective knowledge sharing. (2)",
@@ -860,8 +979,9 @@
     },
     {
       "theme": "Governance & Oversight",
-      "number": 36,
+      "number": 39,
       "question": "If Internal Audit (IA) function exists: Is the IA plan risk-based, focusing on high-risk fundraising/fund mgt areas?",
+      "tip": "For CLBGs with an Internal Audit function, a risk-based approach enhances effectiveness. While not required by SSM Guidelines, focusing audit resources on high-risk areas related to fundraising and fund management helps identify potential compliance issues. This is particularly important for maintaining compliance with Companies Act 2016 requirements and, if applicable, LHDN conditions for tax-exempt status under subsection 44(6).",
       "options": [
         {
           "text": "Yes, explicitly risk-based with documented assessment, covers key areas. (2)",
@@ -887,8 +1007,9 @@
     },
     {
       "theme": "Governance & Oversight",
-      "number": 37,
+      "number": 40,
       "question": "If IA function exists: Is there formal follow-up on IA findings related to fundraising/fund mgt?",
+      "tip": "Following up on Internal Audit findings is essential for addressing identified issues. Though not specifically required by SSM Guidelines, a formal follow-up process demonstrates commitment to good governance and compliance. For CLBGs, addressing audit findings related to fundraising and fund management helps ensure continued adherence to regulatory requirements and internal policies governing charitable activities.",
       "options": [
         {
           "text": "Yes, formal, tracked follow-up process with management accountability. (2)",
@@ -914,8 +1035,9 @@
     },
     {
       "theme": "Governance & Oversight",
-      "number": 38,
+      "number": 41,
       "question": "If IA function exists: Are recurring IA findings related to fundraising/fund mgt escalated or given higher ratings?",
+      "tip": "Escalating recurring audit findings helps address persistent issues. For CLBGs with an Internal Audit function, tracking repeat findings and escalating them to higher management or the board demonstrates a commitment to resolving compliance issues. This is particularly important for areas related to fundraising and fund management, where unresolved issues could affect compliance with Companies Act 2016 and SSM requirements.",
       "options": [
         {
           "text": "Yes, repeat findings specifically tracked & rating/attention escalated. (2)",
@@ -941,8 +1063,9 @@
     },
     {
       "theme": "Governance & Oversight",
-      "number": 39,
+      "number": 42,
       "question": "If IA function exists: Has IA undergone an external quality review (EQAR) within the last 5 years?",
+      "tip": "External quality reviews of Internal Audit enhance credibility and effectiveness. While not required by SSM Guidelines for CLBGs, following international standards for internal auditing demonstrates commitment to good governance. For organizations with significant fundraising activities, a strong and credible Internal Audit function helps ensure compliance with regulatory requirements and internal policies governing charitable activities.",
       "options": [
         {
           "text": "Yes, satisfactory EQAR completed within the last 5 years. (2)",
@@ -961,6 +1084,90 @@
         },
         {
           "text": "Not Applicable (No IA function). (0)",
+          "score": 0,
+          "classification": "Non-compliant"
+        }
+      ]
+    },
+    {
+      "theme": "Governance & Oversight",
+      "number": 43,
+      "question": "Does the organisation maintain a departmental risk register, updated at least quarterly by designated risk agents?",
+      "tip": "A departmental risk register helps identify and manage compliance risks. Though not explicitly required by SSM Guidelines, maintaining and regularly updating a risk register demonstrates a systematic approach to risk management. For CLBGs, this is particularly valuable for tracking risks related to fundraising activities, fund management, and compliance with Companies Act 2016 and LHDN requirements if tax-exempt.",
+      "options": [
+        {
+          "text": "Yes, each department submits a register quarterly and updates are reviewed by a Risk Committee. (3)",
+          "score": 3,
+          "classification": "Best Practice"
+        },
+        {
+          "text": "Mostly—register exists but updates are irregular or not fully reviewed. (2)",
+          "score": 2,
+          "classification": "Compliant"
+        },
+        {
+          "text": "Rarely—register exists but is seldom updated or shared. (1)",
+          "score": 1,
+          "classification": "At Risk"
+        },
+        {
+          "text": "No departmental risk registers maintained. (0)",
+          "score": 0,
+          "classification": "Non-compliant"
+        }
+      ]
+    },
+    {
+      "theme": "Governance & Oversight",
+      "number": 44,
+      "question": "Are risk & compliance agents formally appointed in each department, with clear terms of reference and reporting lines?",
+      "tip": "Formally appointed risk and compliance agents strengthen governance. While not specifically required by SSM Guidelines, designating staff members responsible for risk management and compliance in each department helps ensure consistent practices. For CLBGs, this is particularly important for maintaining compliance with Companies Act 2016, SSM requirements, and if applicable, LHDN conditions for tax-exempt status.",
+      "options": [
+        {
+          "text": "Yes, all departments have appointed agents with documented TORs. (3)",
+          "score": 3,
+          "classification": "Best Practice"
+        },
+        {
+          "text": "Most departments have agents; some TORs are informal. (2)",
+          "score": 2,
+          "classification": "Compliant"
+        },
+        {
+          "text": "Few departments have appointed agents; roles are unclear. (1)",
+          "score": 1,
+          "classification": "At Risk"
+        },
+        {
+          "text": "No risk agents appointed. (0)",
+          "score": 0,
+          "classification": "Non-compliant"
+        }
+      ]
+    },
+    {
+      "theme": "Governance & Oversight",
+      "number": 45,
+      "question": "Does the organisation have defined KPIs to measure the effectiveness of its risk management function (e.g., number of risks mitigated, timeliness of renewals)?",
+      "tip": "Key Performance Indicators (KPIs) for risk management help evaluate effectiveness. Though not required by SSM Guidelines, measuring and tracking the performance of risk management activities demonstrates a commitment to continuous improvement. For CLBGs, effective risk management is particularly important for maintaining compliance with regulatory requirements and protecting the organization's reputation and charitable status.",
+      "options": [
+        {
+          "text": "Yes, KPIs exist, are tracked monthly, and reported to senior management. (3)",
+          "score": 3,
+          "classification": "Best Practice"
+        },
+        {
+          "text": "KPIs exist but are tracked irregularly or only bi-annually. (2)",
+          "score": 2,
+          "classification": "Compliant"
+        },
+        {
+          "text": "KPIs are under development or poorly defined. (1)",
+          "score": 1,
+          "classification": "At Risk"
+        },
+        {
+          "text": "No formal KPIs for risk management. (0)",
           "score": 0,
           "classification": "Non-compliant"
         }
