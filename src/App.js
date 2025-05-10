@@ -4,6 +4,7 @@ import UserInfoForm from './components/UserInfoForm';
 import InstructionsPage from './components/InstructionsPage';
 import QuestionPage from './components/QuestionPage';
 import ResultsPage from './components/ResultsPage';
+import { generateSampleReportData } from './utils/SampleReportData'; // Import the sample data generator
 
 const App = () => {
   const [page, setPage] = useState('landing');
@@ -17,6 +18,8 @@ const App = () => {
   const [themeClassifications, setThemeClassifications] = useState({});
   const [progress, setProgress] = useState(0);
   const [error, setError] = useState(null);
+  const [viewingSample, setViewingSample] = useState(false);
+  const [sampleData, setSampleData] = useState(null);
 
   useEffect(() => {
     const loadData = async () => {
@@ -32,6 +35,14 @@ const App = () => {
     };
     loadData();
   }, []);
+
+  // Generate sample data when questionnaire is loaded
+  useEffect(() => {
+    if (questionnaire) {
+      const sampleReportData = generateSampleReportData(questionnaire);
+      setSampleData(sampleReportData);
+    }
+  }, [questionnaire]);
 
   useEffect(() => {
     if (questionnaire) {
@@ -58,6 +69,7 @@ const App = () => {
           const selectedOption = question.options[answerIndex];
           const questionScore = selectedOption.score;
           const questionClassification = selectedOption.classification;
+          const questionRecommendation = selectedOption.recommendation;
           const maxPossible = Math.max(...question.options.map(opt => opt.score || 0));
 
           if (theme && newThemeScores[theme]) {
@@ -68,12 +80,14 @@ const App = () => {
               score: questionScore,
               maxPossible: maxPossible,
               answer: selectedOption.text,
-              classification: questionClassification
+              classification: questionClassification,
+              recommendation: questionRecommendation
             });
 
             newThemeClassifications[theme].questions.push({
               question: question.question,
-              classification: questionClassification
+              classification: questionClassification,
+              recommendation: questionRecommendation
             });
 
             if (questionClassification === "Non-compliant") {
@@ -141,6 +155,26 @@ const App = () => {
     }
   };
 
+  // Function to show sample report
+  const showSampleReport = () => {
+    setViewingSample(true);
+    setPage('results');
+    window.scrollTo(0, 0);
+  };
+
+  // Function to return from sample report to previous page
+  const exitSampleReport = () => {
+    setViewingSample(false);
+    // Go back to where user was before viewing sample
+    if (page === 'results') {
+      // If they were on user info page before
+      setPage('userInfo');
+    } else {
+      // If they were on question page
+      setPage('questions');
+    }
+  };
+
   const getImprovementTips = (theme, classification) => {
     const tips = {
       'Authorisation & Compliance': {
@@ -186,6 +220,8 @@ const App = () => {
       userData={userData}
       setUserData={setUserData}
       handleSubmit={handleUserFormSubmit}
+      showSampleReport={showSampleReport}
+      sampleAvailable={!!sampleData}
     />
   );
   if (page === 'instructions') return (
@@ -207,18 +243,30 @@ const App = () => {
         goToNextQuestion={goToNextQuestion}
         goToPreviousQuestion={goToPreviousQuestion}
         progress={progress}
+        showSampleReport={showSampleReport}
+        sampleAvailable={!!sampleData}
       />
     );
   }
   if (page === 'results') {
+    // Use real data or sample data based on viewingSample flag
+    const resultsData = viewingSample ? sampleData : {
+      scores,
+      themeScores,
+      themeClassifications,
+      userData
+    };
+    
     return (
       <ResultsPage
-        scores={scores}
-        themeScores={themeScores}
-        themeClassifications={themeClassifications}
+        scores={resultsData.scores}
+        themeScores={resultsData.themeScores}
+        themeClassifications={resultsData.themeClassifications}
         getImprovementTips={getImprovementTips}
-        userData={userData}
-        setPage={setPage}
+        userData={resultsData.userData}
+        setPage={viewingSample ? exitSampleReport : setPage}
+        questionnaire={questionnaire}
+        isSampleReport={viewingSample}
       />
     );
   }

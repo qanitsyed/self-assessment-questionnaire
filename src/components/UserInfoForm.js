@@ -1,6 +1,6 @@
 import React from 'react';
 
-const UserInfoForm = ({ userData, setUserData, handleSubmit }) => {
+const UserInfoForm = ({ userData, setUserData, handleSubmit, showSampleReport, sampleAvailable }) => {
   return (
     <div className="min-h-screen bg-blue-50 py-8">
       <div className="max-w-3xl mx-auto px-4">
@@ -73,13 +73,23 @@ const UserInfoForm = ({ userData, setUserData, handleSubmit }) => {
                 </div>
               </div>
               
-              <div className="mt-8 text-center">
+              <div className="mt-8 flex flex-col sm:flex-row sm:justify-center space-y-4 sm:space-y-0 sm:space-x-4">
                 <button
                   type="submit"
                   className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg shadow transition duration-150 ease-in-out"
                 >
                   Continue to Assessment
                 </button>
+                
+                {sampleAvailable && (
+                  <button
+                    type="button"
+                    onClick={showSampleReport}
+                    className="bg-white border border-blue-600 hover:bg-blue-50 text-blue-600 font-bold py-3 px-6 rounded-lg shadow transition duration-150 ease-in-out"
+                  >
+                    View Sample Report
+                  </button>
+                )}
               </div>
             </form>
           </div>

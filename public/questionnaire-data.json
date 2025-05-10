@@ -17,22 +17,26 @@
         {
           "text": "Yes, always obtained well in advance; process clear & documented. (3)",
           "score": 3,
-          "classification": "Best Practice"
+          "classification": "Best Practice",
+          "recommendation": "Maintain proactive tracking and documented workflows to ensure continued compliance with SSM and PDRM requirements."
         },
         {
           "text": "Yes, usually obtained before commencement; minor delays but compliant. (2)",
           "score": 2,
-          "classification": "Compliant"
+          "classification": "Compliant",
+          "recommendation": "Set internal deadlines and assign responsibilities to reduce delays and improve consistency in permit applications."
         },
         {
           "text": "Sometimes obtained late or process unclear/inconsistent. (1)",
           "score": 1,
-          "classification": "At Risk"
+          "classification": "At Risk",
+          "recommendation": "Develop a checklist and internal SOP to ensure timely, consistent applications before launching any fundraising efforts."
         },
         {
           "text": "No, often not sought or obtained post-activity / Unaware of requirements. (0)",
           "score": 0,
-          "classification": "Non-compliant"
+          "classification": "Non-compliant",
+          "recommendation": "Establish clear policies and provide training to ensure permits are obtained before fundraising activities begin."
         }
       ]
     },
@@ -45,22 +49,26 @@
         {
           "text": "Yes, eligibility always confirmed systematically before application. (2)",
           "score": 2,
-          "classification": "Best Practice"
+          "classification": "Best Practice",
+          "recommendation": "Maintain strong controls and continue to document and improve practices for accountability."
         },
         {
           "text": "Usually confirmed, occasional oversight or assumptions made. (1)",
           "score": 1,
-          "classification": "Compliant"
+          "classification": "Compliant",
+          "recommendation": "Identify specific improvement areas and develop structured action plans to elevate to best practice."
         },
         {
           "text": "Rarely confirmed systematically / Eligibility issues often found post-application. (0)",
           "score": 0,
-          "classification": "Non-compliant"
+          "classification": "Non-compliant",
+          "recommendation": "Take immediate action to rectify deficiencies and assign compliance responsibilities to appropriate personnel."
         },
         {
           "text": "Not Applicable (No such applications made). (0)",
           "score": 0,
-          "classification": "Non-compliant"
+          "classification": "Non-compliant",
+          "recommendation": "Take immediate action to rectify deficiencies and assign compliance responsibilities to appropriate personnel."
         }
       ]
     },
@@ -73,22 +81,26 @@
         {
           "text": "Yes, consistently high quality, clear, accurate, and complete. (3)",
           "score": 3,
-          "classification": "Best Practice"
+          "classification": "Best Practice",
+          "recommendation": "Continue keeping a master checklist of all submission requirements across SSM, LHDN, and relevant bodies."
         },
         {
           "text": "Generally adequate, most key information included, minor clarifications needed. (2)",
           "score": 2,
-          "classification": "Compliant"
+          "classification": "Compliant",
+          "recommendation": "Create internal templates or checklists to reduce inconsistencies and missing data during submission."
         },
         {
           "text": "Often lack clarity or completeness, requiring significant follow-up. (1)",
           "score": 1,
-          "classification": "At Risk"
+          "classification": "At Risk",
+          "recommendation": "Assign a compliance officer to vet and verify completeness of all documentation before submission."
         },
         {
           "text": "Poor quality, key information missing / Not Applicable. (0)",
           "score": 0,
-          "classification": "Non-compliant"
+          "classification": "Non-compliant",
+          "recommendation": "Create standardized templates and train staff on how to complete permit and grant applications accurately."
         }
       ]
     },
@@ -101,22 +113,26 @@
         {
           "text": "Yes, procedures always followed correctly, correct forms/fees used. (2)",
           "score": 2,
-          "classification": "Best Practice"
+          "classification": "Best Practice",
+          "recommendation": "Continue keeping a master checklist of all submission requirements across SSM, LHDN, and relevant bodies."
         },
         {
           "text": "Mostly correct, occasional minor errors in procedure, form, or fee. (1)",
           "score": 1,
-          "classification": "Compliant"
+          "classification": "Compliant",
+          "recommendation": "Create internal templates or checklists to reduce inconsistencies and missing data during submission."
         },
         {
           "text": "Frequent errors in procedure, form, or fee / Unaware of correct process. (0)",
           "score": 0,
-          "classification": "At Risk"
+          "classification": "At Risk",
+          "recommendation": "Assign a compliance officer to vet and verify completeness of all documentation before submission."
         },
         {
           "text": "Not Applicable (No such submissions made). (0)",
           "score": 0,
-          "classification": "Non-compliant"
+          "classification": "Non-compliant",
+          "recommendation": "Create standardized templates and train staff on how to complete permit and grant applications accurately."
         }
       ]
     },
@@ -129,22 +145,26 @@
         {
           "text": "Yes, conditions fully understood, documented, and consistently complied with. (2)",
           "score": 2,
-          "classification": "Best Practice"
+          "classification": "Best Practice",
+          "recommendation": "Maintain strong controls and continue to document and improve practices for accountability."
         },
         {
           "text": "Generally understood and complied with, some conditions less clear/monitored. (1)",
           "score": 1,
-          "classification": "Compliant"
+          "classification": "Compliant",
+          "recommendation": "Identify specific improvement areas and develop structured action plans to elevate to best practice."
         },
         {
           "text": "Lack of clarity on conditions / Compliance gaps exist / Not monitored. (0)",
           "score": 0,
-          "classification": "Non-compliant"
+          "classification": "Non-compliant",
+          "recommendation": "Take immediate action to rectify deficiencies and assign compliance responsibilities to appropriate personnel."
         },
         {
           "text": "Not Applicable (Not tax-exempt). (0)",
           "score": 0,
-          "classification": "Non-compliant"
+          "classification": "Non-compliant",
+          "recommendation": "Take immediate action to rectify deficiencies and assign compliance responsibilities to appropriate personnel."
         }
       ]
     },
@@ -157,22 +177,26 @@
         {
           "text": "Yes, automated reminders are in place and tracked by Risk & Compliance. (2)",
           "score": 2,
-          "classification": "Best Practice"
+          "classification": "Best Practice",
+          "recommendation": "Maintain strong controls and continue to document and improve practices for accountability."
         },
         {
           "text": "Reminders exist but are manual or sometimes delayed. (1)",
           "score": 1,
-          "classification": "Compliant"
+          "classification": "Compliant",
+          "recommendation": "Identify specific improvement areas and develop structured action plans to elevate to best practice."
         },
         {
           "text": "Notifications are ad-hoc or rely on individual memory. (0)",
           "score": 0,
-          "classification": "At Risk"
+          "classification": "At Risk",
+          "recommendation": "Perform a gap analysis and assign corrective actions with deadlines and responsible owners."
         },
         {
           "text": "No expiry-notification process. (0)",
           "score": 0,
-          "classification": "Non-compliant"
+          "classification": "Non-compliant",
+          "recommendation": "Take immediate action to rectify deficiencies and assign compliance responsibilities to appropriate personnel."
         }
       ]
     },
@@ -185,17 +209,20 @@
         {
           "text": "Yes, all key documents are current and readily accessible. (2)",
           "score": 2,
-          "classification": "Compliant"
+          "classification": "Compliant",
+          "recommendation": "Schedule periodic SOP reviews and include recent regulatory updates from SSM and LHDN."
         },
         {
           "text": "Most are available, some may need locating or updating. (1)",
           "score": 1,
-          "classification": "Compliant"
+          "classification": "Compliant",
+          "recommendation": "Schedule periodic SOP reviews and include recent regulatory updates from SSM and LHDN."
         },
         {
           "text": "Significant documents are outdated or difficult to locate. (0)",
           "score": 0,
-          "classification": "Non-compliant"
+          "classification": "Non-compliant",
+          "recommendation": "Create written SOPs for fundraising and donation handling and distribute them to staff with clear responsibilities."
         }
       ]
     },
@@ -208,22 +235,26 @@
         {
           "text": "Yes, comprehensive, documented plan exists and is followed/updated. (3)",
           "score": 3,
-          "classification": "Best Practice"
+          "classification": "Best Practice",
+          "recommendation": "Continue updating your fundraising strategy annually with specific KPIs and new donor engagement channels."
         },
         {
           "text": "Basic plan exists, covers key areas but lacks detail or regular review. (2)",
           "score": 2,
-          "classification": "Compliant"
+          "classification": "Compliant",
+          "recommendation": "Expand your plan to include contingency methods and compliance mechanisms aligned with SSM Checklist 6."
         },
         {
           "text": "Informal planning only / Plans lack key elements. (1)",
           "score": 1,
-          "classification": "At Risk"
+          "classification": "At Risk",
+          "recommendation": "Document your fundraising goals and align methods with CLBG\u2019s constitution and LHDN requirements."
         },
         {
           "text": "No documented plan for fundraising activities. (0)",
           "score": 0,
-          "classification": "Non-compliant"
+          "classification": "Non-compliant",
+          "recommendation": "Create a comprehensive, board-approved fundraising plan including objectives, target audience, and procedures."
         }
       ]
     },
@@ -236,22 +267,26 @@
         {
           "text": "Yes, robust, clear, documented process consistently followed. (3)",
           "score": 3,
-          "classification": "Best Practice"
+          "classification": "Best Practice",
+          "recommendation": "Continue annual SOP reviews and conduct refresher briefings for staff to ensure ongoing relevance and compliance."
         },
         {
           "text": "Documented process exists, covers key steps but could be clearer/more detailed. (2)",
           "score": 2,
-          "classification": "Compliant"
+          "classification": "Compliant",
+          "recommendation": "Schedule periodic SOP reviews and include recent regulatory updates from SSM and LHDN."
         },
         {
           "text": "Basic or informal process, lacks detail or consistency. (1)",
           "score": 1,
-          "classification": "At Risk"
+          "classification": "At Risk",
+          "recommendation": "Document critical procedures in writing and ensure access by relevant teams with periodic training."
         },
         {
           "text": "No documented process / Process not followed. (0)",
           "score": 0,
-          "classification": "Non-compliant"
+          "classification": "Non-compliant",
+          "recommendation": "Create written SOPs for fundraising and donation handling and distribute them to staff with clear responsibilities."
         }
       ]
     },
@@ -264,17 +299,20 @@
         {
           "text": "Yes, detailed SOPs exist, are regularly updated and actively used. (2)",
           "score": 2,
-          "classification": "Best Practice"
+          "classification": "Best Practice",
+          "recommendation": "Continue annual SOP reviews and conduct refresher briefings for staff to ensure ongoing relevance and compliance."
         },
         {
           "text": "Basic SOPs exist but lack detail or regular updates / Use is inconsistent. (1)",
           "score": 1,
-          "classification": "At Risk"
+          "classification": "At Risk",
+          "recommendation": "Document critical procedures in writing and ensure access by relevant teams with periodic training."
         },
         {
           "text": "No detailed SOPs documented for these tasks. (0)",
           "score": 0,
-          "classification": "Non-compliant"
+          "classification": "Non-compliant",
+          "recommendation": "Create written SOPs for fundraising and donation handling and distribute them to staff with clear responsibilities."
         }
       ]
     },
@@ -287,22 +325,26 @@
         {
           "text": "Yes, formal review process consistently applied before publication. (2)",
           "score": 2,
-          "classification": "Best Practice"
+          "classification": "Best Practice",
+          "recommendation": "Maintain strong controls and continue to document and improve practices for accountability."
         },
         {
           "text": "Informal review usually happens / Process applied inconsistently. (1)",
           "score": 1,
-          "classification": "At Risk"
+          "classification": "At Risk",
+          "recommendation": "Perform a gap analysis and assign corrective actions with deadlines and responsible owners."
         },
         {
           "text": "No specific review process before use / Materials used without review. (0)",
           "score": 0,
-          "classification": "Non-compliant"
+          "classification": "Non-compliant",
+          "recommendation": "Take immediate action to rectify deficiencies and assign compliance responsibilities to appropriate personnel."
         },
         {
           "text": "Not Applicable (No external fundraising materials used). (0)",
           "score": 0,
-          "classification": "Non-compliant"
+          "classification": "Non-compliant",
+          "recommendation": "Take immediate action to rectify deficiencies and assign compliance responsibilities to appropriate personnel."
         }
       ]
     },
@@ -315,17 +357,20 @@
         {
           "text": "Yes, required authorisations always documented appropriately. (2)",
           "score": 2,
-          "classification": "Compliant"
+          "classification": "Compliant",
+          "recommendation": "Create internal templates or checklists to reduce inconsistencies and missing data during submission."
         },
         {
           "text": "Usually documented, occasional lapses in formality or record-keeping. (1)",
           "score": 1,
-          "classification": "At Risk"
+          "classification": "At Risk",
+          "recommendation": "Assign a compliance officer to vet and verify completeness of all documentation before submission."
         },
         {
           "text": "Authorisations often informal or undocumented. (0)",
           "score": 0,
-          "classification": "Non-compliant"
+          "classification": "Non-compliant",
+          "recommendation": "Create standardized templates and train staff on how to complete permit and grant applications accurately."
         }
       ]
     },
@@ -338,17 +383,20 @@
         {
           "text": "Yes, always completed on time to meet deadlines. (2)",
           "score": 2,
-          "classification": "Compliant"
+          "classification": "Compliant",
+          "recommendation": "Assign internal deadlines ahead of statutory ones and reduce dependency on last-minute preparations."
         },
         {
           "text": "Usually on time, occasional minor delays but deadlines generally met. (1)",
           "score": 1,
-          "classification": "At Risk"
+          "classification": "At Risk",
+          "recommendation": "Review bottlenecks and automate audit reminders to ensure prompt completion and regulatory submission."
         },
         {
           "text": "Often significantly delayed, impacting reporting/submissions. (0)",
           "score": 0,
-          "classification": "Non-compliant"
+          "classification": "Non-compliant",
+          "recommendation": "Set up a yearly audit schedule, appoint responsible staff, and communicate deadlines to your external auditors."
         }
       ]
     },
@@ -361,22 +409,26 @@
         {
           "text": "Yes, every proposal requires a documented risk assessment before sign-off. (3)",
           "score": 3,
-          "classification": "Best Practice"
+          "classification": "Best Practice",
+          "recommendation": "Continue keeping a master checklist of all submission requirements across SSM, LHDN, and relevant bodies."
         },
         {
           "text": "Most proposals include risk checks, but some bypass the process. (2)",
           "score": 2,
-          "classification": "Compliant"
+          "classification": "Compliant",
+          "recommendation": "Create internal templates or checklists to reduce inconsistencies and missing data during submission."
         },
         {
           "text": "Risk checks are optional or ad-hoc. (1)",
           "score": 1,
-          "classification": "At Risk"
+          "classification": "At Risk",
+          "recommendation": "Assign a compliance officer to vet and verify completeness of all documentation before submission."
         },
         {
           "text": "No risk-assessment integration in project processes. (0)",
           "score": 0,
-          "classification": "Non-compliant"
+          "classification": "Non-compliant",
+          "recommendation": "Create standardized templates and train staff on how to complete permit and grant applications accurately."
         }
       ]
     },
@@ -389,17 +441,20 @@
         {
           "text": "Yes, comprehensive, documented strategy exists and is reviewed regularly. (2)",
           "score": 2,
-          "classification": "Compliant"
+          "classification": "Compliant",
+          "recommendation": "Schedule periodic SOP reviews and include recent regulatory updates from SSM and LHDN."
         },
         {
           "text": "An informal strategy exists or is documented but not regularly reviewed. (1)",
           "score": 1,
-          "classification": "At Risk"
+          "classification": "At Risk",
+          "recommendation": "Document critical procedures in writing and ensure access by relevant teams with periodic training."
         },
         {
           "text": "No documented fundraising strategy. (0)",
           "score": 0,
-          "classification": "Non-compliant"
+          "classification": "Non-compliant",
+          "recommendation": "Create written SOPs for fundraising and donation handling and distribute them to staff with clear responsibilities."
         }
       ]
     },
@@ -412,22 +467,26 @@
         {
           "text": "Excellent: Detailed, accurate, complete, well-organized records. (3)",
           "score": 3,
-          "classification": "Best Practice"
+          "classification": "Best Practice",
+          "recommendation": "Maintain strong controls and continue to document and improve practices for accountability."
         },
         {
           "text": "Good: Generally complete & accurate, minor gaps or organization issues. (2)",
           "score": 2,
-          "classification": "Compliant"
+          "classification": "Compliant",
+          "recommendation": "Identify specific improvement areas and develop structured action plans to elevate to best practice."
         },
         {
           "text": "Fair: Often incomplete or contain inaccuracies, poorly organized. (1)",
           "score": 1,
-          "classification": "At Risk"
+          "classification": "At Risk",
+          "recommendation": "Perform a gap analysis and assign corrective actions with deadlines and responsible owners."
         },
         {
           "text": "Poor: Significant information missing / Records unreliable. (0)",
           "score": 0,
-          "classification": "Non-compliant"
+          "classification": "Non-compliant",
+          "recommendation": "Take immediate action to rectify deficiencies and assign compliance responsibilities to appropriate personnel."
         }
       ]
     },
@@ -440,22 +499,26 @@
         {
           "text": "Highly Effective: Strict tracking, controls ensure compliance. (3)",
           "score": 3,
-          "classification": "Best Practice"
+          "classification": "Best Practice",
+          "recommendation": "Maintain strong controls and continue to document and improve practices for accountability."
         },
         {
           "text": "Mostly Effective: Good controls, minor deviations tracked/corrected. (2)",
           "score": 2,
-          "classification": "Compliant"
+          "classification": "Compliant",
+          "recommendation": "Identify specific improvement areas and develop structured action plans to elevate to best practice."
         },
         {
           "text": "Partially Effective: Controls could be stronger, some ambiguity in tracking. (1)",
           "score": 1,
-          "classification": "At Risk"
+          "classification": "At Risk",
+          "recommendation": "Perform a gap analysis and assign corrective actions with deadlines and responsible owners."
         },
         {
           "text": "Ineffective: Poor control over fund usage / Significant compliance risks. (0)",
           "score": 0,
-          "classification": "Non-compliant"
+          "classification": "Non-compliant",
+          "recommendation": "Take immediate action to rectify deficiencies and assign compliance responsibilities to appropriate personnel."
         }
       ]
     },
@@ -468,22 +531,26 @@
         {
           "text": "Yes, robust tracking/coding allows easy segregation & reporting. (2)",
           "score": 2,
-          "classification": "Compliant"
+          "classification": "Compliant",
+          "recommendation": "Identify specific improvement areas and develop structured action plans to elevate to best practice."
         },
         {
           "text": "Partially, basic tracking exists but distinction isn't always clear/easy. (1)",
           "score": 1,
-          "classification": "At Risk"
+          "classification": "At Risk",
+          "recommendation": "Perform a gap analysis and assign corrective actions with deadlines and responsible owners."
         },
         {
           "text": "No, funds generally co-mingled without specific tracking/reporting capability. (0)",
           "score": 0,
-          "classification": "Non-compliant"
+          "classification": "Non-compliant",
+          "recommendation": "Take immediate action to rectify deficiencies and assign compliance responsibilities to appropriate personnel."
         },
         {
           "text": "Not Applicable (Only receives unrestricted general funds). (0)",
           "score": 0,
-          "classification": "Non-compliant"
+          "classification": "Non-compliant",
+          "recommendation": "Take immediate action to rectify deficiencies and assign compliance responsibilities to appropriate personnel."
         }
       ]
     },
@@ -496,22 +563,26 @@
         {
           "text": "Yes, clear documented process with risk levels & triggers, consistently applied. (3)",
           "score": 3,
-          "classification": "Best Practice"
+          "classification": "Best Practice",
+          "recommendation": "Maintain strong controls and continue to document and improve practices for accountability."
         },
         {
           "text": "Basic process exists, applied inconsistently or lacks clear triggers/risk levels. (2)",
           "score": 2,
-          "classification": "Compliant"
+          "classification": "Compliant",
+          "recommendation": "Identify specific improvement areas and develop structured action plans to elevate to best practice."
         },
         {
           "text": "Process informal or poorly defined / Enhanced checks rarely done. (1)",
           "score": 1,
-          "classification": "At Risk"
+          "classification": "At Risk",
+          "recommendation": "Perform a gap analysis and assign corrective actions with deadlines and responsible owners."
         },
         {
           "text": "No defined donor screening/due diligence process. (0)",
           "score": 0,
-          "classification": "Non-compliant"
+          "classification": "Non-compliant",
+          "recommendation": "Take immediate action to rectify deficiencies and assign compliance responsibilities to appropriate personnel."
         }
       ]
     },
@@ -524,22 +595,26 @@
         {
           "text": "Very Clearly: Explicit, prominent communication in materials/receipts. (2)",
           "score": 2,
-          "classification": "Compliant"
+          "classification": "Compliant",
+          "recommendation": "Identify specific improvement areas and develop structured action plans to elevate to best practice."
         },
         {
           "text": "Adequately: Mentioned, but could be clearer or more consistently applied. (1)",
           "score": 1,
-          "classification": "At Risk"
+          "classification": "At Risk",
+          "recommendation": "Perform a gap analysis and assign corrective actions with deadlines and responsible owners."
         },
         {
           "text": "Not Clearly Communicated / Ambiguous messaging. (0)",
           "score": 0,
-          "classification": "Non-compliant"
+          "classification": "Non-compliant",
+          "recommendation": "Take immediate action to rectify deficiencies and assign compliance responsibilities to appropriate personnel."
         },
         {
           "text": "Not Applicable (Only receives unrestricted general funds). (0)",
           "score": 0,
-          "classification": "Non-compliant"
+          "classification": "Non-compliant",
+          "recommendation": "Take immediate action to rectify deficiencies and assign compliance responsibilities to appropriate personnel."
         }
       ]
     },
@@ -552,22 +627,26 @@
         {
           "text": "Yes, robust segregation (separate accounts or strict accounting controls). (2)",
           "score": 2,
-          "classification": "Compliant"
+          "classification": "Compliant",
+          "recommendation": "Identify specific improvement areas and develop structured action plans to elevate to best practice."
         },
         {
           "text": "Basic segregation/tracking exists, but risk of co-mingling or misuse. (1)",
           "score": 1,
-          "classification": "At Risk"
+          "classification": "At Risk",
+          "recommendation": "Perform a gap analysis and assign corrective actions with deadlines and responsible owners."
         },
         {
           "text": "No effective segregation, funds co-mingled / High risk of misuse. (0)",
           "score": 0,
-          "classification": "Non-compliant"
+          "classification": "Non-compliant",
+          "recommendation": "Take immediate action to rectify deficiencies and assign compliance responsibilities to appropriate personnel."
         },
         {
           "text": "Not Applicable (Only receives unrestricted general funds). (0)",
           "score": 0,
-          "classification": "Non-compliant"
+          "classification": "Non-compliant",
+          "recommendation": "Take immediate action to rectify deficiencies and assign compliance responsibilities to appropriate personnel."
         }
       ]
     },
@@ -580,17 +659,20 @@
         {
           "text": "Yes, multiple convenient & secure channels actively offered & maintained. (2)",
           "score": 2,
-          "classification": "Compliant"
+          "classification": "Compliant",
+          "recommendation": "Identify specific improvement areas and develop structured action plans to elevate to best practice."
         },
         {
           "text": "Limited channels offered (e.g., only 1-2 options) / Some usability issues. (1)",
           "score": 1,
-          "classification": "At Risk"
+          "classification": "At Risk",
+          "recommendation": "Perform a gap analysis and assign corrective actions with deadlines and responsible owners."
         },
         {
           "text": "Only one channel offered / Channels are inconvenient or lack security. (0)",
           "score": 0,
-          "classification": "Non-compliant"
+          "classification": "Non-compliant",
+          "recommendation": "Take immediate action to rectify deficiencies and assign compliance responsibilities to appropriate personnel."
         }
       ]
     },
@@ -603,22 +685,26 @@
         {
           "text": "Yes, contracts with qualified external experts/services are maintained and reviewed annually. (2)",
           "score": 2,
-          "classification": "Best Practice"
+          "classification": "Best Practice",
+          "recommendation": "Maintain strong controls and continue to document and improve practices for accountability."
         },
         {
           "text": "Occasional use of external experts when issues arise. (1)",
           "score": 1,
-          "classification": "Compliant"
+          "classification": "Compliant",
+          "recommendation": "Identify specific improvement areas and develop structured action plans to elevate to best practice."
         },
         {
           "text": "Rarely engages external experts; relies solely on in-house capability. (0)",
           "score": 0,
-          "classification": "At Risk"
+          "classification": "At Risk",
+          "recommendation": "Perform a gap analysis and assign corrective actions with deadlines and responsible owners."
         },
         {
           "text": "No engagement of external risk/compliance experts. (0)",
           "score": 0,
-          "classification": "Non-compliant"
+          "classification": "Non-compliant",
+          "recommendation": "Take immediate action to rectify deficiencies and assign compliance responsibilities to appropriate personnel."
         }
       ]
     },
@@ -631,17 +717,20 @@
         {
           "text": "Fully Prepared: Systems allow easy, accurate generation on demand. (2)",
           "score": 2,
-          "classification": "Compliant"
+          "classification": "Compliant",
+          "recommendation": "Identify specific improvement areas and develop structured action plans to elevate to best practice."
         },
         {
           "text": "Moderately Prepared: Could compile with significant effort / System limitations. (1)",
           "score": 1,
-          "classification": "At Risk"
+          "classification": "At Risk",
+          "recommendation": "Perform a gap analysis and assign corrective actions with deadlines and responsible owners."
         },
         {
           "text": "Unprepared: Unable to provide detailed reports / Systems inadequate. (0)",
           "score": 0,
-          "classification": "Non-compliant"
+          "classification": "Non-compliant",
+          "recommendation": "Take immediate action to rectify deficiencies and assign compliance responsibilities to appropriate personnel."
         }
       ]
     },
@@ -654,17 +743,20 @@
         {
           "text": "Yes, specific, regular reports/updates provided proactively. (2)",
           "score": 2,
-          "classification": "Compliant"
+          "classification": "Compliant",
+          "recommendation": "Identify specific improvement areas and develop structured action plans to elevate to best practice."
         },
         {
           "text": "Reports provided occasionally, upon request, or lack specific detail. (1)",
           "score": 1,
-          "classification": "At Risk"
+          "classification": "At Risk",
+          "recommendation": "Perform a gap analysis and assign corrective actions with deadlines and responsible owners."
         },
         {
           "text": "No specific reporting back to donors beyond generic annual reports. (0)",
           "score": 0,
-          "classification": "Non-compliant"
+          "classification": "Non-compliant",
+          "recommendation": "Take immediate action to rectify deficiencies and assign compliance responsibilities to appropriate personnel."
         }
       ]
     },
@@ -677,17 +769,20 @@
         {
           "text": "Yes, impact/stories regularly communicated through various channels. (2)",
           "score": 2,
-          "classification": "Compliant"
+          "classification": "Compliant",
+          "recommendation": "Identify specific improvement areas and develop structured action plans to elevate to best practice."
         },
         {
           "text": "Impact/stories shared occasionally or lack depth. (1)",
           "score": 1,
-          "classification": "At Risk"
+          "classification": "At Risk",
+          "recommendation": "Perform a gap analysis and assign corrective actions with deadlines and responsible owners."
         },
         {
           "text": "Primarily reports only financial usage / Impact communication minimal. (0)",
           "score": 0,
-          "classification": "Non-compliant"
+          "classification": "Non-compliant",
+          "recommendation": "Take immediate action to rectify deficiencies and assign compliance responsibilities to appropriate personnel."
         }
       ]
     },
@@ -700,17 +795,20 @@
         {
           "text": "Yes, formal tools used regularly by relevant departments/staff. (2)",
           "score": 2,
-          "classification": "Compliant"
+          "classification": "Compliant",
+          "recommendation": "Identify specific improvement areas and develop structured action plans to elevate to best practice."
         },
         {
           "text": "Informal checks performed occasionally / Tools exist but not used consistently. (1)",
           "score": 1,
-          "classification": "At Risk"
+          "classification": "At Risk",
+          "recommendation": "Perform a gap analysis and assign corrective actions with deadlines and responsible owners."
         },
         {
           "text": "No internal self-assessment tools or regular checks used. (0)",
           "score": 0,
-          "classification": "Non-compliant"
+          "classification": "Non-compliant",
+          "recommendation": "Take immediate action to rectify deficiencies and assign compliance responsibilities to appropriate personnel."
         }
       ]
     },
@@ -723,22 +821,26 @@
         {
           "text": "Yes, formal verification process exists and is implemented. (2)",
           "score": 2,
-          "classification": "Compliant"
+          "classification": "Compliant",
+          "recommendation": "Assign internal deadlines ahead of statutory ones and reduce dependency on last-minute preparations."
         },
         {
           "text": "Informal checks or reliance solely on declaration without verification. (1)",
           "score": 1,
-          "classification": "At Risk"
+          "classification": "At Risk",
+          "recommendation": "Review bottlenecks and automate audit reminders to ensure prompt completion and regulatory submission."
         },
         {
           "text": "No verification of self-assessments performed. (0)",
           "score": 0,
-          "classification": "Non-compliant"
+          "classification": "Non-compliant",
+          "recommendation": "Set up a yearly audit schedule, appoint responsible staff, and communicate deadlines to your external auditors."
         },
         {
           "text": "Not Applicable (No self-assessments done). (0)",
           "score": 0,
-          "classification": "Non-compliant"
+          "classification": "Non-compliant",
+          "recommendation": "Set up a yearly audit schedule, appoint responsible staff, and communicate deadlines to your external auditors."
         }
       ]
     },
@@ -751,17 +853,20 @@
         {
           "text": "Yes, formal, confidential channel exists, is known and utilized. (2)",
           "score": 2,
-          "classification": "Compliant"
+          "classification": "Compliant",
+          "recommendation": "Identify specific improvement areas and develop structured action plans to elevate to best practice."
         },
         {
           "text": "Informal channels exist (e.g., report to manager) / Formal channel unclear. (1)",
           "score": 1,
-          "classification": "At Risk"
+          "classification": "At Risk",
+          "recommendation": "Perform a gap analysis and assign corrective actions with deadlines and responsible owners."
         },
         {
           "text": "No formal or clear channel for incident reporting. (0)",
           "score": 0,
-          "classification": "Non-compliant"
+          "classification": "Non-compliant",
+          "recommendation": "Take immediate action to rectify deficiencies and assign compliance responsibilities to appropriate personnel."
         }
       ]
     },
@@ -774,22 +879,26 @@
         {
           "text": "Proactive & Regular Oversight: Dedicated agenda items, reviews reports/risks. (3)",
           "score": 3,
-          "classification": "Best Practice"
+          "classification": "Best Practice",
+          "recommendation": "Continue documenting Board deliberations and ensure minutes reflect decisions and follow-ups on fundraising oversight."
         },
         {
           "text": "Periodic Review: Addressed annually or when significant issues arise. (2)",
           "score": 2,
-          "classification": "Compliant"
+          "classification": "Compliant",
+          "recommendation": "Introduce structured quarterly review sessions and assign ownership of compliance oversight."
         },
         {
           "text": "Minimal / Infrequent Oversight: Rarely discussed at Board/Committee level. (1)",
           "score": 1,
-          "classification": "At Risk"
+          "classification": "At Risk",
+          "recommendation": "Clarify Board responsibilities and introduce a standing agenda item for compliance and fundraising risk."
         },
         {
           "text": "No specific Board/Committee oversight of fundraising compliance/risks. (0)",
           "score": 0,
-          "classification": "Non-compliant"
+          "classification": "Non-compliant",
+          "recommendation": "Reorganize governance structure to include dedicated oversight on fundraising and risk. Provide director training if needed."
         }
       ]
     },
@@ -802,17 +911,20 @@
         {
           "text": "Yes, reviewed recently (e.g., within 2-3 years) and confirmed alignment. (2)",
           "score": 2,
-          "classification": "Compliant"
+          "classification": "Compliant",
+          "recommendation": "Schedule periodic SOP reviews and include recent regulatory updates from SSM and LHDN."
         },
         {
           "text": "Reviewed in the past (>3 years ago), assume alignment / Informal review only. (1)",
           "score": 1,
-          "classification": "At Risk"
+          "classification": "At Risk",
+          "recommendation": "Document critical procedures in writing and ensure access by relevant teams with periodic training."
         },
         {
           "text": "No recent review or confirmation of alignment. (0)",
           "score": 0,
-          "classification": "Non-compliant"
+          "classification": "Non-compliant",
+          "recommendation": "Create written SOPs for fundraising and donation handling and distribute them to staff with clear responsibilities."
         }
       ]
     },
@@ -825,17 +937,20 @@
         {
           "text": "Yes, relevant committees exist with appropriate independent members. (2)",
           "score": 2,
-          "classification": "Compliant"
+          "classification": "Compliant",
+          "recommendation": "Assign internal deadlines ahead of statutory ones and reduce dependency on last-minute preparations."
         },
         {
           "text": "Committees exist but lack independent members / Independence questionable. (1)",
           "score": 1,
-          "classification": "At Risk"
+          "classification": "At Risk",
+          "recommendation": "Review bottlenecks and automate audit reminders to ensure prompt completion and regulatory submission."
         },
         {
           "text": "No specific oversight committees utilized for these functions. (0)",
           "score": 0,
-          "classification": "Non-compliant"
+          "classification": "Non-compliant",
+          "recommendation": "Set up a yearly audit schedule, appoint responsible staff, and communicate deadlines to your external auditors."
         }
       ]
     },
@@ -848,17 +963,20 @@
         {
           "text": "Yes, strong diverse expertise represented and actively engaged. (2)",
           "score": 2,
-          "classification": "Compliant"
+          "classification": "Compliant",
+          "recommendation": "Introduce structured quarterly review sessions and assign ownership of compliance oversight."
         },
         {
           "text": "Some relevant expertise exists, but lacks diversity or depth / Engagement low. (1)",
           "score": 1,
-          "classification": "At Risk"
+          "classification": "At Risk",
+          "recommendation": "Clarify Board responsibilities and introduce a standing agenda item for compliance and fundraising risk."
         },
         {
           "text": "Oversight body lacks diverse or relevant expertise for key areas. (0)",
           "score": 0,
-          "classification": "Non-compliant"
+          "classification": "Non-compliant",
+          "recommendation": "Reorganize governance structure to include dedicated oversight on fundraising and risk. Provide director training if needed."
         }
       ]
     },
@@ -871,17 +989,20 @@
         {
           "text": "Yes, formal reviews conducted regularly (e.g., annually) covering key risks. (2)",
           "score": 2,
-          "classification": "Compliant"
+          "classification": "Compliant",
+          "recommendation": "Assign internal deadlines ahead of statutory ones and reduce dependency on last-minute preparations."
         },
         {
           "text": "Informal or ad-hoc reviews conducted / Scope or independence limited. (1)",
           "score": 1,
-          "classification": "At Risk"
+          "classification": "At Risk",
+          "recommendation": "Review bottlenecks and automate audit reminders to ensure prompt completion and regulatory submission."
         },
         {
           "text": "No regular internal compliance reviews conducted. (0)",
           "score": 0,
-          "classification": "Non-compliant"
+          "classification": "Non-compliant",
+          "recommendation": "Set up a yearly audit schedule, appoint responsible staff, and communicate deadlines to your external auditors."
         }
       ]
     },
@@ -894,17 +1015,20 @@
         {
           "text": "Yes, clearly defined, documented, and understood roles & structure. (2)",
           "score": 2,
-          "classification": "Compliant"
+          "classification": "Compliant",
+          "recommendation": "Identify specific improvement areas and develop structured action plans to elevate to best practice."
         },
         {
           "text": "Roles exist but are informal or not clearly defined/documented / Overlap exists. (1)",
           "score": 1,
-          "classification": "At Risk"
+          "classification": "At Risk",
+          "recommendation": "Perform a gap analysis and assign corrective actions with deadlines and responsible owners."
         },
         {
           "text": "No defined structure or roles for risk management/compliance. (0)",
           "score": 0,
-          "classification": "Non-compliant"
+          "classification": "Non-compliant",
+          "recommendation": "Take immediate action to rectify deficiencies and assign compliance responsibilities to appropriate personnel."
         }
       ]
     },
@@ -917,17 +1041,20 @@
         {
           "text": "Yes, mandatory regular training/refreshers with effectiveness checks. (2)",
           "score": 2,
-          "classification": "Compliant"
+          "classification": "Compliant",
+          "recommendation": "Identify specific improvement areas and develop structured action plans to elevate to best practice."
         },
         {
           "text": "Training provided initially or ad-hoc / Lacks regularity or effectiveness checks. (1)",
           "score": 1,
-          "classification": "At Risk"
+          "classification": "At Risk",
+          "recommendation": "Perform a gap analysis and assign corrective actions with deadlines and responsible owners."
         },
         {
           "text": "No specific compliance training provided for relevant personnel. (0)",
           "score": 0,
-          "classification": "Non-compliant"
+          "classification": "Non-compliant",
+          "recommendation": "Take immediate action to rectify deficiencies and assign compliance responsibilities to appropriate personnel."
         }
       ]
     },
@@ -940,17 +1067,20 @@
         {
           "text": "Yes, specific checklists are integrated into processes & used consistently. (2)",
           "score": 2,
-          "classification": "Compliant"
+          "classification": "Compliant",
+          "recommendation": "Identify specific improvement areas and develop structured action plans to elevate to best practice."
         },
         {
           "text": "Checklists exist but are not used consistently or lack key controls. (1)",
           "score": 1,
-          "classification": "At Risk"
+          "classification": "At Risk",
+          "recommendation": "Perform a gap analysis and assign corrective actions with deadlines and responsible owners."
         },
         {
           "text": "No operational checklists used for these processes. (0)",
           "score": 0,
-          "classification": "Non-compliant"
+          "classification": "Non-compliant",
+          "recommendation": "Take immediate action to rectify deficiencies and assign compliance responsibilities to appropriate personnel."
         }
       ]
     },
@@ -963,17 +1093,20 @@
         {
           "text": "Yes, actively used platforms for regular & effective knowledge sharing. (2)",
           "score": 2,
-          "classification": "Compliant"
+          "classification": "Compliant",
+          "recommendation": "Identify specific improvement areas and develop structured action plans to elevate to best practice."
         },
         {
           "text": "Platforms exist but used infrequently / Info outdated or hard to find. (1)",
           "score": 1,
-          "classification": "At Risk"
+          "classification": "At Risk",
+          "recommendation": "Perform a gap analysis and assign corrective actions with deadlines and responsible owners."
         },
         {
           "text": "No specific platforms/processes used for sharing this knowledge. (0)",
           "score": 0,
-          "classification": "Non-compliant"
+          "classification": "Non-compliant",
+          "recommendation": "Take immediate action to rectify deficiencies and assign compliance responsibilities to appropriate personnel."
         }
       ]
     },
@@ -986,22 +1119,26 @@
         {
           "text": "Yes, explicitly risk-based with documented assessment, covers key areas. (2)",
           "score": 2,
-          "classification": "Compliant"
+          "classification": "Compliant",
+          "recommendation": "Expand your plan to include contingency methods and compliance mechanisms aligned with SSM Checklist 6."
         },
         {
           "text": "Considers risk informally / Lacks documented assessment / Coverage limited. (1)",
           "score": 1,
-          "classification": "At Risk"
+          "classification": "At Risk",
+          "recommendation": "Document your fundraising goals and align methods with CLBG\u2019s constitution and LHDN requirements."
         },
         {
           "text": "IA plan not risk-based / Key areas not covered. (0)",
           "score": 0,
-          "classification": "Non-compliant"
+          "classification": "Non-compliant",
+          "recommendation": "Create a comprehensive, board-approved fundraising plan including objectives, target audience, and procedures."
         },
         {
           "text": "Not Applicable (No IA function). (0)",
           "score": 0,
-          "classification": "Non-compliant"
+          "classification": "Non-compliant",
+          "recommendation": "Create a comprehensive, board-approved fundraising plan including objectives, target audience, and procedures."
         }
       ]
     },
@@ -1014,22 +1151,26 @@
         {
           "text": "Yes, formal, tracked follow-up process with management accountability. (2)",
           "score": 2,
-          "classification": "Compliant"
+          "classification": "Compliant",
+          "recommendation": "Identify specific improvement areas and develop structured action plans to elevate to best practice."
         },
         {
           "text": "Follow-up is informal or ad-hoc / Tracking is weak. (1)",
           "score": 1,
-          "classification": "At Risk"
+          "classification": "At Risk",
+          "recommendation": "Perform a gap analysis and assign corrective actions with deadlines and responsible owners."
         },
         {
           "text": "No formal follow-up process / Findings often unresolved. (0)",
           "score": 0,
-          "classification": "Non-compliant"
+          "classification": "Non-compliant",
+          "recommendation": "Take immediate action to rectify deficiencies and assign compliance responsibilities to appropriate personnel."
         },
         {
           "text": "Not Applicable (No IA function / No relevant findings). (0)",
           "score": 0,
-          "classification": "Non-compliant"
+          "classification": "Non-compliant",
+          "recommendation": "Take immediate action to rectify deficiencies and assign compliance responsibilities to appropriate personnel."
         }
       ]
     },
@@ -1042,22 +1183,26 @@
         {
           "text": "Yes, repeat findings specifically tracked & rating/attention escalated. (2)",
           "score": 2,
-          "classification": "Compliant"
+          "classification": "Compliant",
+          "recommendation": "Identify specific improvement areas and develop structured action plans to elevate to best practice."
         },
         {
           "text": "Repeat findings noted, but no formal escalation process exists. (1)",
           "score": 1,
-          "classification": "At Risk"
+          "classification": "At Risk",
+          "recommendation": "Perform a gap analysis and assign corrective actions with deadlines and responsible owners."
         },
         {
           "text": "Repeat findings not specifically tracked or escalated. (0)",
           "score": 0,
-          "classification": "Non-compliant"
+          "classification": "Non-compliant",
+          "recommendation": "Take immediate action to rectify deficiencies and assign compliance responsibilities to appropriate personnel."
         },
         {
           "text": "Not Applicable (No IA function / No relevant repeat findings). (0)",
           "score": 0,
-          "classification": "Non-compliant"
+          "classification": "Non-compliant",
+          "recommendation": "Take immediate action to rectify deficiencies and assign compliance responsibilities to appropriate personnel."
         }
       ]
     },
@@ -1070,22 +1215,26 @@
         {
           "text": "Yes, satisfactory EQAR completed within the last 5 years. (2)",
           "score": 2,
-          "classification": "Compliant"
+          "classification": "Compliant",
+          "recommendation": "Identify specific improvement areas and develop structured action plans to elevate to best practice."
         },
         {
           "text": "EQAR completed >5 years ago / Planned but not yet done / Outcome unsatisfactory. (1)",
           "score": 1,
-          "classification": "At Risk"
+          "classification": "At Risk",
+          "recommendation": "Perform a gap analysis and assign corrective actions with deadlines and responsible owners."
         },
         {
           "text": "No EQAR conducted / Not considered. (0)",
           "score": 0,
-          "classification": "Non-compliant"
+          "classification": "Non-compliant",
+          "recommendation": "Take immediate action to rectify deficiencies and assign compliance responsibilities to appropriate personnel."
         },
         {
           "text": "Not Applicable (No IA function). (0)",
           "score": 0,
-          "classification": "Non-compliant"
+          "classification": "Non-compliant",
+          "recommendation": "Take immediate action to rectify deficiencies and assign compliance responsibilities to appropriate personnel."
         }
       ]
     },
@@ -1098,22 +1247,26 @@
         {
           "text": "Yes, each department submits a register quarterly and updates are reviewed by a Risk Committee. (3)",
           "score": 3,
-          "classification": "Best Practice"
+          "classification": "Best Practice",
+          "recommendation": "Maintain strong controls and continue to document and improve practices for accountability."
         },
         {
-          "text": "Mostly—register exists but updates are irregular or not fully reviewed. (2)",
+          "text": "Mostly\u2014register exists but updates are irregular or not fully reviewed. (2)",
           "score": 2,
-          "classification": "Compliant"
+          "classification": "Compliant",
+          "recommendation": "Identify specific improvement areas and develop structured action plans to elevate to best practice."
         },
         {
-          "text": "Rarely—register exists but is seldom updated or shared. (1)",
+          "text": "Rarely\u2014register exists but is seldom updated or shared. (1)",
           "score": 1,
-          "classification": "At Risk"
+          "classification": "At Risk",
+          "recommendation": "Perform a gap analysis and assign corrective actions with deadlines and responsible owners."
         },
         {
           "text": "No departmental risk registers maintained. (0)",
           "score": 0,
-          "classification": "Non-compliant"
+          "classification": "Non-compliant",
+          "recommendation": "Take immediate action to rectify deficiencies and assign compliance responsibilities to appropriate personnel."
         }
       ]
     },
@@ -1126,22 +1279,26 @@
         {
           "text": "Yes, all departments have appointed agents with documented TORs. (3)",
           "score": 3,
-          "classification": "Best Practice"
+          "classification": "Best Practice",
+          "recommendation": "Maintain strong controls and continue to document and improve practices for accountability."
         },
         {
           "text": "Most departments have agents; some TORs are informal. (2)",
           "score": 2,
-          "classification": "Compliant"
+          "classification": "Compliant",
+          "recommendation": "Identify specific improvement areas and develop structured action plans to elevate to best practice."
         },
         {
           "text": "Few departments have appointed agents; roles are unclear. (1)",
           "score": 1,
-          "classification": "At Risk"
+          "classification": "At Risk",
+          "recommendation": "Perform a gap analysis and assign corrective actions with deadlines and responsible owners."
         },
         {
           "text": "No risk agents appointed. (0)",
           "score": 0,
-          "classification": "Non-compliant"
+          "classification": "Non-compliant",
+          "recommendation": "Take immediate action to rectify deficiencies and assign compliance responsibilities to appropriate personnel."
         }
       ]
     },
@@ -1154,22 +1311,26 @@
         {
           "text": "Yes, KPIs exist, are tracked monthly, and reported to senior management. (3)",
           "score": 3,
-          "classification": "Best Practice"
+          "classification": "Best Practice",
+          "recommendation": "Maintain strong controls and continue to document and improve practices for accountability."
         },
         {
           "text": "KPIs exist but are tracked irregularly or only bi-annually. (2)",
           "score": 2,
-          "classification": "Compliant"
+          "classification": "Compliant",
+          "recommendation": "Identify specific improvement areas and develop structured action plans to elevate to best practice."
         },
         {
           "text": "KPIs are under development or poorly defined. (1)",
           "score": 1,
-          "classification": "At Risk"
+          "classification": "At Risk",
+          "recommendation": "Perform a gap analysis and assign corrective actions with deadlines and responsible owners."
         },
         {
           "text": "No formal KPIs for risk management. (0)",
           "score": 0,
-          "classification": "Non-compliant"
+          "classification": "Non-compliant",
+          "recommendation": "Take immediate action to rectify deficiencies and assign compliance responsibilities to appropriate personnel."
         }
       ]
     }
