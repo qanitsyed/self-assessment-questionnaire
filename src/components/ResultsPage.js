@@ -168,7 +168,7 @@ const RecommendationsSummary = ({ themeClassifications, themeScores, questionnai
 };
 
 // Results Page Component
-const ResultsPage = ({ scores, themeScores, themeClassifications, getImprovementTips, userData, setPage, questionnaire }) => {
+const ResultsPage = ({ scores, themeScores, themeClassifications, getImprovementTips, userData, setPage, questionnaire, isSampleReport = false }) => {
   // Function to get colors based on numeric scores (for overall percentage)
   const getScoreColor = (percentage) => {
     if (percentage >= 90) return "text-green-600";
@@ -229,6 +229,29 @@ const ResultsPage = ({ scores, themeScores, themeClassifications, getImprovement
   return (
     <div className="min-h-screen bg-blue-50 py-8" id="report-container">
       <div className="max-w-4xl mx-auto px-4">
+        {/* Sample Report Banner */}
+        {isSampleReport && (
+          <div className="bg-purple-600 text-white rounded-lg p-4 mb-6 shadow-lg">
+            <div className="flex items-center">
+              <div className="mr-3 text-2xl">👁️</div>
+              <div>
+                <h2 className="text-lg font-bold">Sample Report Preview</h2>
+                <p className="text-sm text-purple-100">
+                  This is a sample report showing how your assessment results will appear. The data shown is for demonstration purposes only.
+                </p>
+              </div>
+            </div>
+            <div className="mt-3 flex justify-end">
+              <button
+                onClick={() => setPage('landing')}
+                className="px-4 py-2 bg-white text-purple-700 rounded-md text-sm font-medium hover:bg-purple-50 transition"
+              >
+                Return to Assessment
+              </button>
+            </div>
+          </div>
+        )}
+        
         <div className="bg-white rounded-lg shadow-lg overflow-hidden print:shadow-none">
           <div className="px-6 py-8">
             <div className="flex justify-between items-center border-b border-gray-200 pb-4 mb-6">
@@ -243,10 +266,10 @@ const ResultsPage = ({ scores, themeScores, themeClassifications, getImprovement
                   Print Report
                 </button>
                 <button
-                  onClick={() => setPage('landing')}
+                  onClick={() => setPage(isSampleReport ? 'landing' : 'landing')}
                   className="px-4 py-2 bg-gray-100 text-gray-700 rounded-md hover:bg-gray-200 transition print:hidden"
                 >
-                  Start New Assessment
+                  {isSampleReport ? 'Return to Assessment' : 'Start New Assessment'}
                 </button>
               </div>
             </div>
@@ -483,7 +506,10 @@ const ResultsPage = ({ scores, themeScores, themeClassifications, getImprovement
           
           <div className="bg-gray-50 px-6 py-4 print:bg-white">
             <p className="text-center text-gray-500 text-sm">
-              This assessment was completed on {new Date().toLocaleDateString()}. For more information and resources, visit our knowledge repository.
+              {isSampleReport 
+                ? "This is a sample report for demonstration purposes only." 
+                : `This assessment was completed on ${new Date().toLocaleDateString()}. For more information and resources, visit our knowledge repository.`
+              }
             </p>
           </div>
         </div>

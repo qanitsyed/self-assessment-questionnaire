@@ -30,7 +30,7 @@ const LandingPage = ({ setPage }) => {
                 </ul>
                 
                 <div className="bg-blue-50 border-l-4 border-blue-500 p-4 mb-6">
-                  <p className="text-blue-800 font-medium">Organizations with strong governance practices demonstrate 50% higher program effectiveness and 35% greater fundraising success than those with weak practices.</p>
+                  <p className="text-blue-800 font-medium">Organizations with strong governance practices demonstrate higher program effectiveness and greater fundraising success than those with weak practices.</p>
                 </div>
                 
                 <p>Our self-assessment tool will help you evaluate your organization's governance practices and identify areas for improvement.</p>
@@ -75,7 +75,10 @@ const LandingPage = ({ setPage }) => {
               </div>
               
               <div className="mt-6 pt-6 border-t border-blue-600">
-                <p className="text-sm">Our self-assessment tool has been developed in consultation with governance experts and aligned with Malaysian regulatory requirements.</p>
+                <p className="text-sm"></p>
+              </div>
+              <div className="bg-red-50 border-l-4 border-red-500 p-4 mb-6">
+                  <p className="text-yellow-800 text-sm">This self-assessment tool is a prototype developed in consultation with industry partners and academic research.</p>
               </div>
             </div>
           </div>
