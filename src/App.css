@@ -40,3 +40,36 @@
 }
 
 /* Add more Tailwind classes as needed */
+
+/* Ensure backgrounds and colors print correctly */
+@media print {
+  * {
+    -webkit-print-color-adjust: exact !important;
+    color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+  
+  /* Hide elements that shouldn't appear in the PDF */
+  .print\:hidden {
+    display: none !important;
+  }
+  
+  /* Ensure page breaks don't occur in the middle of important elements */
+  .theme-section {
+    page-break-inside: avoid;
+  }
+  
+  /* Force backgrounds to print */
+  .bg-blue-50, .bg-yellow-50, .bg-red-50, .bg-green-50 {
+    background-color: inherit !important;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+  
+  /* Ensure text colors print correctly */
+  .text-blue-600, .text-green-600, .text-yellow-600, .text-red-600 {
+    color: inherit !important;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+}

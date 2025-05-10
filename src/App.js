@@ -58,6 +58,7 @@ const App = () => {
           const selectedOption = question.options[answerIndex];
           const questionScore = selectedOption.score;
           const questionClassification = selectedOption.classification;
+          const questionRecommendation = selectedOption.recommendation;
           const maxPossible = Math.max(...question.options.map(opt => opt.score || 0));
 
           if (theme && newThemeScores[theme]) {
@@ -68,12 +69,14 @@ const App = () => {
               score: questionScore,
               maxPossible: maxPossible,
               answer: selectedOption.text,
-              classification: questionClassification
+              classification: questionClassification,
+              recommendation: questionRecommendation
             });
 
             newThemeClassifications[theme].questions.push({
               question: question.question,
-              classification: questionClassification
+              classification: questionClassification,
+              recommendation: questionRecommendation
             });
 
             if (questionClassification === "Non-compliant") {
@@ -219,6 +222,7 @@ const App = () => {
         getImprovementTips={getImprovementTips}
         userData={userData}
         setPage={setPage}
+        questionnaire={questionnaire}
       />
     );
   }
