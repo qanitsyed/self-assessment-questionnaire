@@ -5,7 +5,7 @@ const LandingPage = ({ setPage }) => {
     <div className="min-h-screen bg-blue-50">
       <header className="bg-blue-800 text-white py-6">
         <div className="max-w-6xl mx-auto px-4">
-          <h1 className="text-3xl font-bold">Charity Governance Knowledge Repository</h1>
+          <h1 className="text-3xl font-bold">Self-Assessment Toolkit</h1>
           <p className="mt-2 text-blue-100">Strengthening governance practices in Malaysian charitable organizations</p>
         </div>
       </header>
